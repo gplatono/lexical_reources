@@ -1,0 +1,2246 @@
+entity.n.01
+|-- physical_entity.n.01
+|   |-- object.n.01
+|   |   |-- location.n.01
+|   |   |   |-- space.n.02
+|   |   |   |   |-- angle.n.01
+|   |   |   |   |   +-- crotch.n.02
+|   |   |   |   |-- opening.n.01
+|   |   |   |   |   |-- mouth.n.03
+|   |   |   |   |   |-- pocket.n.09
+|   |   |   |   |   +-- window.n.04
+|   |   |   |   |-- cavity.n.02
+|   |   |   |   |   +-- pouch.n.02
+|   |   |   |   +-- pocket.n.04
+|   |   |   |-- region.n.03
+|   |   |   |   |-- geographical_area.n.01
+|   |   |   |   |   |-- river_basin.n.01
+|   |   |   |   |   |-- tract.n.01
+|   |   |   |   |   |   |-- plot.n.02
+|   |   |   |   |   |   |   |-- bed.n.02
+|   |   |   |   |   |   |   +-- garden.n.01
+|   |   |   |   |   |   |-- field.n.01
+|   |   |   |   |   |   |   +-- yard.n.02
+|   |   |   |   |   |   |       +-- garden.n.03
+|   |   |   |   |   |   +-- public_square.n.01
+|   |   |   |   |   +-- urban_area.n.01
+|   |   |   |   |       +-- municipality.n.01
+|   |   |   |   |           +-- town.n.01
+|   |   |   |   |-- area.n.01
+|   |   |   |   |   |-- center.n.01
+|   |   |   |   |   +-- space.n.03
+|   |   |   |   |       +-- key.n.09
+|   |   |   |   +-- district.n.01
+|   |   |   |       +-- administrative_district.n.01
+|   |   |   |           +-- township.n.01
+|   |   |   |-- region.n.01
+|   |   |   |   |-- layer.n.02
+|   |   |   |   |   |-- stratum.n.01
+|   |   |   |   |   |   |-- bed.n.04
+|   |   |   |   |   |   |-- seam.n.03
+|   |   |   |   |   |   +-- wall.n.03
+|   |   |   |   |   |-- surface.n.03
+|   |   |   |   |   |   |-- floor.n.05
+|   |   |   |   |   |   +-- floor.n.06
+|   |   |   |   |   +-- crust.n.01
+|   |   |   |   |       +-- plate.n.06
+|   |   |   |   |-- extremity.n.04
+|   |   |   |   |   +-- boundary.n.01
+|   |   |   |   |       +-- surface.n.02
+|   |   |   |   |           +-- side.n.04
+|   |   |   |   |               +-- front.n.01
+|   |   |   |   |                   +-- forefront.n.01
+|   |   |   |   |-- bottom.n.02
+|   |   |   |   |   +-- foot.n.03
+|   |   |   |   |-- side.n.01
+|   |   |   |   |   +-- hand.n.05
+|   |   |   |   |-- top.n.01
+|   |   |   |   |   +-- head.n.07
+|   |   |   |   +-- sign_of_the_zodiac.n.01
+|   |   |   |-- point.n.02
+|   |   |   |   |-- topographic_point.n.01
+|   |   |   |   |   |-- junction.n.01
+|   |   |   |   |   |   +-- traffic_circle.n.01
+|   |   |   |   |   |-- hiding_place.n.01
+|   |   |   |   |   |   +-- drop.n.05
+|   |   |   |   |   +-- zone.n.01
+|   |   |   |   |       +-- island.n.02
+|   |   |   |   |-- geographic_point.n.01
+|   |   |   |   |   +-- workplace.n.01
+|   |   |   |   |       +-- farm.n.01
+|   |   |   |   |-- beginning.n.04
+|   |   |   |   |   |-- fountainhead.n.02
+|   |   |   |   |   +-- spring.n.04
+|   |   |   |   |-- military_position.n.01
+|   |   |   |   |   +-- line.n.07
+|   |   |   |   +-- position.n.01
+|   |   |   |       |-- station.n.03
+|   |   |   |       |-- post.n.01
+|   |   |   |       +-- wing.n.07
+|   |   |   +-- line.n.11
+|   |   |-- whole.n.02
+|   |   |   |-- living_thing.n.01
+|   |   |   |   |-- organism.n.01
+|   |   |   |   |   |-- person.n.01
+|   |   |   |   |   |   |-- inhabitant.n.01
+|   |   |   |   |   |   |   +-- european.n.01
+|   |   |   |   |   |   |       +-- angle.n.03
+|   |   |   |   |   |   |-- relative.n.01
+|   |   |   |   |   |   |   |-- offspring.n.01
+|   |   |   |   |   |   |   |   |-- child.n.02
+|   |   |   |   |   |   |   |   |   +-- baby.n.01
+|   |   |   |   |   |   |   |   +-- baby.n.02
+|   |   |   |   |   |   |   +-- ancestor.n.01
+|   |   |   |   |   |   |-- child.n.03
+|   |   |   |   |   |   |-- female.n.02
+|   |   |   |   |   |   |   |-- woman.n.01
+|   |   |   |   |   |   |   |   |-- girl.n.01
+|   |   |   |   |   |   |   |   |   |-- baby.n.05
+|   |   |   |   |   |   |   |   |   +-- dame.n.01
+|   |   |   |   |   |   |   |   |-- cat.n.03
+|   |   |   |   |   |   |   |   |-- girlfriend.n.02
+|   |   |   |   |   |   |   |   +-- girl.n.05
+|   |   |   |   |   |   |   |-- female_child.n.01
+|   |   |   |   |   |   |   +-- female_offspring.n.01
+|   |   |   |   |   |   |       +-- daughter.n.01
+|   |   |   |   |   |   |-- unwelcome_person.n.01
+|   |   |   |   |   |   |   |-- unpleasant_person.n.01
+|   |   |   |   |   |   |   |   |-- unpleasant_woman.n.01
+|   |   |   |   |   |   |   |   |   |-- bag.n.07
+|   |   |   |   |   |   |   |   |   |-- cow.n.03
+|   |   |   |   |   |   |   |   |   +-- frump.n.01
+|   |   |   |   |   |   |   |   |-- vulgarian.n.01
+|   |   |   |   |   |   |   |   |   +-- slob.n.01
+|   |   |   |   |   |   |   |   |-- selfish_person.n.01
+|   |   |   |   |   |   |   |   |   +-- hog.n.01
+|   |   |   |   |   |   |   |   |-- rotter.n.01
+|   |   |   |   |   |   |   |   +-- worm.n.02
+|   |   |   |   |   |   |   +-- villain.n.01
+|   |   |   |   |   |   |       +-- cad.n.01
+|   |   |   |   |   |   |-- juvenile.n.01
+|   |   |   |   |   |   |   |-- young_person.n.01
+|   |   |   |   |   |   |   |   +-- blade.n.02
+|   |   |   |   |   |   |   +-- child.n.01
+|   |   |   |   |   |   |       +-- imp.n.02
+|   |   |   |   |   |   |-- male.n.02
+|   |   |   |   |   |   |   |-- male_child.n.01
+|   |   |   |   |   |   |   |-- man.n.01
+|   |   |   |   |   |   |   |   |-- boy.n.02
+|   |   |   |   |   |   |   |   |-- black_man.n.01
+|   |   |   |   |   |   |   |   |   +-- boy.n.04
+|   |   |   |   |   |   |   |   +-- guy.n.01
+|   |   |   |   |   |   |   |-- male_offspring.n.01
+|   |   |   |   |   |   |   |   +-- son.n.01
+|   |   |   |   |   |   |   +-- chap.n.01
+|   |   |   |   |   |   |       +-- dog.n.03
+|   |   |   |   |   |   |-- intellectual.n.01
+|   |   |   |   |   |   |   +-- genius.n.01
+|   |   |   |   |   |   |-- good_person.n.01
+|   |   |   |   |   |   |   +-- brick.n.02
+|   |   |   |   |   |   |-- entertainer.n.01
+|   |   |   |   |   |   |   |-- humorist.n.01
+|   |   |   |   |   |   |   |   +-- wag.n.01
+|   |   |   |   |   |   |   +-- performer.n.01
+|   |   |   |   |   |   |       |-- actor.n.01
+|   |   |   |   |   |   |       |   +-- star.n.04
+|   |   |   |   |   |   |       +-- headliner.n.01
+|   |   |   |   |   |   |-- money_handler.n.01
+|   |   |   |   |   |   |   +-- drawer.n.02
+|   |   |   |   |   |   |-- creator.n.02
+|   |   |   |   |   |   |   |-- artist.n.01
+|   |   |   |   |   |   |   |   +-- draftsman.n.02
+|   |   |   |   |   |   |   +-- architect.n.01
+|   |   |   |   |   |   |       +-- town.n.04
+|   |   |   |   |   |   |-- face.n.05
+|   |   |   |   |   |   |-- pisces.n.02
+|   |   |   |   |   |   |-- communicator.n.01
+|   |   |   |   |   |   |   |-- negotiator.n.01
+|   |   |   |   |   |   |   |   +-- representative.n.01
+|   |   |   |   |   |   |   |       +-- agent.n.02
+|   |   |   |   |   |   |   |           +-- secret_agent.n.01
+|   |   |   |   |   |   |   |               +-- foot.n.08
+|   |   |   |   |   |   |   +-- informant.n.01
+|   |   |   |   |   |   |       +-- informer.n.01
+|   |   |   |   |   |   |-- victim.n.02
+|   |   |   |   |   |   |   +-- butt.n.03
+|   |   |   |   |   |   |-- capricorn.n.01
+|   |   |   |   |   |   |-- expert.n.01
+|   |   |   |   |   |   |   |-- shot.n.05
+|   |   |   |   |   |   |   |   +-- gunman.n.02
+|   |   |   |   |   |   |   +-- ace.n.03
+|   |   |   |   |   |   |-- killer.n.01
+|   |   |   |   |   |   |   +-- murderer.n.01
+|   |   |   |   |   |   |       +-- gunman.n.01
+|   |   |   |   |   |   |-- worker.n.01
+|   |   |   |   |   |   |   |-- employee.n.01
+|   |   |   |   |   |   |   |   +-- workman.n.01
+|   |   |   |   |   |   |   |       +-- laborer.n.01
+|   |   |   |   |   |   |   |           +-- hired_hand.n.01
+|   |   |   |   |   |   |   |-- skilled_worker.n.01
+|   |   |   |   |   |   |   |   +-- sailor.n.01
+|   |   |   |   |   |   |   |       +-- hand.n.10
+|   |   |   |   |   |   |   +-- scab.n.01
+|   |   |   |   |   |   |-- contestant.n.01
+|   |   |   |   |   |   |   +-- player.n.01
+|   |   |   |   |   |   |       |-- card_player.n.01
+|   |   |   |   |   |   |       |   +-- bridge_player.n.01
+|   |   |   |   |   |   |       |-- seeded_player.n.01
+|   |   |   |   |   |   |       +-- hockey_player.n.01
+|   |   |   |   |   |   |           +-- wing.n.06
+|   |   |   |   |   |   |-- leader.n.01
+|   |   |   |   |   |   |   |-- head.n.04
+|   |   |   |   |   |   |   +-- politician.n.01
+|   |   |   |   |   |   |       +-- legislator.n.01
+|   |   |   |   |   |   |           +-- whip.n.02
+|   |   |   |   |   |   |-- adult.n.01
+|   |   |   |   |   |   |   |-- professional.n.01
+|   |   |   |   |   |   |   |   +-- educator.n.01
+|   |   |   |   |   |   |   |       +-- principal.n.02
+|   |   |   |   |   |   |   |-- catch.n.03
+|   |   |   |   |   |   |   |-- conservative.n.01
+|   |   |   |   |   |   |   |   +-- square.n.06
+|   |   |   |   |   |   |   +-- important_person.n.01
+|   |   |   |   |   |   |       +-- sun.n.03
+|   |   |   |   |   |   |-- drug_user.n.01
+|   |   |   |   |   |   |   +-- head.n.15
+|   |   |   |   |   |   |-- jewel.n.02
+|   |   |   |   |   |   |-- peer.n.01
+|   |   |   |   |   |   |-- user.n.01
+|   |   |   |   |   |   |   +-- consumer.n.01
+|   |   |   |   |   |   |       +-- eater.n.01
+|   |   |   |   |   |   |           +-- mouth.n.05
+|   |   |   |   |   |   |-- advocate.n.01
+|   |   |   |   |   |   |   |-- spokesperson.n.01
+|   |   |   |   |   |   |   |   +-- mouthpiece.n.03
+|   |   |   |   |   |   |   +-- supporter.n.01
+|   |   |   |   |   |   |       +-- enthusiast.n.01
+|   |   |   |   |   |   |           +-- addict.n.01
+|   |   |   |   |   |   |-- bad_person.n.01
+|   |   |   |   |   |   |   |-- wrongdoer.n.01
+|   |   |   |   |   |   |   |   +-- attacker.n.01
+|   |   |   |   |   |   |   |       +-- bully.n.01
+|   |   |   |   |   |   |   |           +-- muscleman.n.01
+|   |   |   |   |   |   |   +-- snake.n.02
+|   |   |   |   |   |   |-- anomaly.n.02
+|   |   |   |   |   |   |   +-- eccentric.n.01
+|   |   |   |   |   |   |       +-- crackpot.n.01
+|   |   |   |   |   |   |-- preserver.n.03
+|   |   |   |   |   |   |   +-- defender.n.01
+|   |   |   |   |   |   |       |-- lawman.n.01
+|   |   |   |   |   |   |       |   |-- policeman.n.01
+|   |   |   |   |   |   |       |   |   +-- bull.n.05
+|   |   |   |   |   |   |       |   +-- prison_guard.n.01
+|   |   |   |   |   |   |       +-- guard.n.01
+|   |   |   |   |   |   |           +-- watchman.n.01
+|   |   |   |   |   |   |               +-- lookout.n.01
+|   |   |   |   |   |   |-- simpleton.n.01
+|   |   |   |   |   |   |   |-- sheep.n.02
+|   |   |   |   |   |   |   +-- square.n.05
+|   |   |   |   |   |   |-- follower.n.01
+|   |   |   |   |   |   |   |-- sheep.n.03
+|   |   |   |   |   |   |   +-- leech.n.02
+|   |   |   |   |   |   |-- person_of_color.n.01
+|   |   |   |   |   |   |   +-- black.n.05
+|   |   |   |   |   |   |       +-- nigger.n.01
+|   |   |   |   |   |   |-- learner.n.01
+|   |   |   |   |   |   |   +-- quick_study.n.01
+|   |   |   |   |   |   +-- perceiver.n.01
+|   |   |   |   |   |       +-- spectator.n.01
+|   |   |   |   |   |           +-- spy.n.02
+|   |   |   |   |   |               +-- tail.n.05
+|   |   |   |   |   |-- animal.n.01
+|   |   |   |   |   |   |-- invertebrate.n.01
+|   |   |   |   |   |   |   |-- arthropod.n.01
+|   |   |   |   |   |   |   |   +-- insect.n.01
+|   |   |   |   |   |   |   |       |-- hymenopterous_insect.n.01
+|   |   |   |   |   |   |   |       |   |-- ant.n.01
+|   |   |   |   |   |   |   |       |   +-- bee.n.01
+|   |   |   |   |   |   |   |       +-- dipterous_insect.n.01
+|   |   |   |   |   |   |   |           +-- fly.n.01
+|   |   |   |   |   |   |   |-- sponge.n.04
+|   |   |   |   |   |   |   +-- worm.n.01
+|   |   |   |   |   |   |-- chordate.n.01
+|   |   |   |   |   |   |   +-- vertebrate.n.01
+|   |   |   |   |   |   |       |-- fetus.n.01
+|   |   |   |   |   |   |       |   +-- baby.n.04
+|   |   |   |   |   |   |       |-- bird.n.01
+|   |   |   |   |   |   |       |   |-- gallinaceous_bird.n.01
+|   |   |   |   |   |   |       |   |   +-- domestic_fowl.n.01
+|   |   |   |   |   |   |       |   +-- aquatic_bird.n.01
+|   |   |   |   |   |   |       |       |-- wading_bird.n.01
+|   |   |   |   |   |   |       |       |   |-- shorebird.n.01
+|   |   |   |   |   |   |       |       |   |   +-- sandpiper.n.01
+|   |   |   |   |   |   |       |       |   |       +-- knot.n.07
+|   |   |   |   |   |   |       |       |   +-- rail.n.05
+|   |   |   |   |   |   |       |       +-- swan.n.01
+|   |   |   |   |   |   |       |           +-- pen.n.05
+|   |   |   |   |   |   |       |-- mammal.n.01
+|   |   |   |   |   |   |       |   +-- placental.n.01
+|   |   |   |   |   |   |       |       |-- carnivore.n.01
+|   |   |   |   |   |   |       |       |   +-- feline.n.01
+|   |   |   |   |   |   |       |       |       |-- cat.n.01
+|   |   |   |   |   |   |       |       |       +-- big_cat.n.01
+|   |   |   |   |   |   |       |       |-- ungulate.n.01
+|   |   |   |   |   |   |       |       |   |-- even-toed_ungulate.n.01
+|   |   |   |   |   |   |       |       |   |   |-- ruminant.n.01
+|   |   |   |   |   |   |       |       |   |   |   +-- bovid.n.01
+|   |   |   |   |   |   |       |       |   |   |       |-- bovine.n.01
+|   |   |   |   |   |   |       |       |   |   |       |   +-- cattle.n.01
+|   |   |   |   |   |   |       |       |   |   |       |       +-- cow.n.01
+|   |   |   |   |   |   |       |       |   |   |       |-- goat.n.01
+|   |   |   |   |   |   |       |       |   |   |       +-- sheep.n.01
+|   |   |   |   |   |   |       |       |   |   +-- swine.n.01
+|   |   |   |   |   |   |       |       |   |       +-- hog.n.03
+|   |   |   |   |   |   |       |       |   +-- odd-toed_ungulate.n.01
+|   |   |   |   |   |   |       |       |       +-- equine.n.01
+|   |   |   |   |   |   |       |       |           +-- horse.n.01
+|   |   |   |   |   |   |       |       |-- cow.n.02
+|   |   |   |   |   |   |       |       |-- primate.n.02
+|   |   |   |   |   |   |       |       |   +-- monkey.n.01
+|   |   |   |   |   |   |       |       +-- rodent.n.01
+|   |   |   |   |   |   |       |           +-- rat.n.01
+|   |   |   |   |   |   |       |-- aquatic_vertebrate.n.01
+|   |   |   |   |   |   |       |   +-- fish.n.01
+|   |   |   |   |   |   |       +-- reptile.n.01
+|   |   |   |   |   |   |           +-- diapsid.n.01
+|   |   |   |   |   |   |               +-- snake.n.01
+|   |   |   |   |   |   |-- young.n.01
+|   |   |   |   |   |   |   +-- young_mammal.n.01
+|   |   |   |   |   |   |       +-- baby.n.06
+|   |   |   |   |   |   +-- domestic_animal.n.01
+|   |   |   |   |   |       |-- dog.n.01
+|   |   |   |   |   |       +-- head.n.02
+|   |   |   |   |   |-- plant.n.02
+|   |   |   |   |   |   +-- vascular_plant.n.01
+|   |   |   |   |   |       |-- woody_plant.n.01
+|   |   |   |   |   |       |   |-- tree.n.01
+|   |   |   |   |   |       |   |   +-- angiospermous_tree.n.01
+|   |   |   |   |   |       |   |       +-- fruit_tree.n.01
+|   |   |   |   |   |       |   |           |-- apple_tree.n.01
+|   |   |   |   |   |       |   |           |   +-- apple.n.02
+|   |   |   |   |   |       |   |           +-- citrus.n.02
+|   |   |   |   |   |       |   |               +-- orange.n.03
+|   |   |   |   |   |       |   +-- shrub.n.01
+|   |   |   |   |   |       |       |-- box.n.06
+|   |   |   |   |   |       |       +-- mallow.n.01
+|   |   |   |   |   |       |           +-- tall_mallow.n.01
+|   |   |   |   |   |       |-- pteridophyte.n.01
+|   |   |   |   |   |       |   +-- fern.n.01
+|   |   |   |   |   |       |       |-- brake.n.02
+|   |   |   |   |   |       |       +-- bracken.n.02
+|   |   |   |   |   |       |-- bulbous_plant.n.01
+|   |   |   |   |   |       |   +-- iridaceous_plant.n.01
+|   |   |   |   |   |       |       +-- iris.n.01
+|   |   |   |   |   |       +-- vine.n.01
+|   |   |   |   |   |           +-- potato.n.02
+|   |   |   |   |   |-- individual.n.02
+|   |   |   |   |   |   +-- head.n.14
+|   |   |   |   |   +-- microorganism.n.01
+|   |   |   |   |       +-- bacteria.n.01
+|   |   |   |   |           +-- rod.n.02
+|   |   |   |   +-- cell.n.02
+|   |   |   |       |-- reproductive_cell.n.01
+|   |   |   |       |   +-- gamete.n.01
+|   |   |   |       |       +-- ovum.n.01
+|   |   |   |       |           +-- egg.n.01
+|   |   |   |       +-- somatic_cell.n.01
+|   |   |   |           +-- visual_cell.n.01
+|   |   |   |               +-- rod.n.05
+|   |   |   |-- natural_object.n.01
+|   |   |   |   |-- plant_part.n.01
+|   |   |   |   |   |-- plant_organ.n.01
+|   |   |   |   |   |   |-- reproductive_structure.n.01
+|   |   |   |   |   |   |   |-- fruit.n.01
+|   |   |   |   |   |   |   |   |-- pome.n.01
+|   |   |   |   |   |   |   |   |   +-- apple.n.01
+|   |   |   |   |   |   |   |   |-- berry.n.02
+|   |   |   |   |   |   |   |   |-- ear.n.05
+|   |   |   |   |   |   |   |   |-- achene.n.01
+|   |   |   |   |   |   |   |   |   +-- samara.n.01
+|   |   |   |   |   |   |   |   +-- seed.n.01
+|   |   |   |   |   |   |   |       +-- nut.n.01
+|   |   |   |   |   |   |   +-- ovule.n.01
+|   |   |   |   |   |   |       +-- seed.n.02
+|   |   |   |   |   |   |-- leaf.n.01
+|   |   |   |   |   |   |   |-- blade.n.01
+|   |   |   |   |   |   |   +-- simple_leaf.n.01
+|   |   |   |   |   |   |       +-- acerate_leaf.n.01
+|   |   |   |   |   |   |-- stalk.n.02
+|   |   |   |   |   |   |   |-- branch.n.02
+|   |   |   |   |   |   |   |   +-- limb.n.02
+|   |   |   |   |   |   |   |       +-- stick.n.02
+|   |   |   |   |   |   |   +-- bulb.n.01
+|   |   |   |   |   |   |-- cup.n.05
+|   |   |   |   |   |   |-- capitulum.n.01
+|   |   |   |   |   |   +-- root.n.01
+|   |   |   |   |   |-- button.n.03
+|   |   |   |   |   |-- lip.n.02
+|   |   |   |   |   +-- annulus.n.02
+|   |   |   |   |-- covering.n.01
+|   |   |   |   |   |-- body_covering.n.01
+|   |   |   |   |   |   |-- hair.n.01
+|   |   |   |   |   |   |   |-- coat.n.03
+|   |   |   |   |   |   |   +-- lock.n.02
+|   |   |   |   |   |   |-- feather.n.01
+|   |   |   |   |   |   +-- hide.n.02
+|   |   |   |   |   +-- roof.n.03
+|   |   |   |   |-- mechanism.n.03
+|   |   |   |   |   +-- barrier.n.03
+|   |   |   |   |       +-- curtain.n.02
+|   |   |   |   |-- body.n.01
+|   |   |   |   |   +-- human_body.n.01
+|   |   |   |   +-- celestial_body.n.01
+|   |   |   |       |-- satellite.n.03
+|   |   |   |       |   +-- moon.n.06
+|   |   |   |       |-- star.n.01
+|   |   |   |       |   +-- sun.n.04
+|   |   |   |       +-- star.n.03
+|   |   |   +-- artifact.n.01
+|   |   |       |-- way.n.06
+|   |   |       |   |-- access.n.03
+|   |   |       |   |   +-- entrance.n.01
+|   |   |       |   |       |-- arch.n.03
+|   |   |       |   |       +-- doorway.n.01
+|   |   |       |   |-- passage.n.03
+|   |   |       |   |   |-- conduit.n.01
+|   |   |       |   |   |   +-- tube.n.01
+|   |   |       |   |   |       |-- drain.n.02
+|   |   |       |   |   |       |-- pipe.n.02
+|   |   |       |   |   |       |   |-- drain.n.03
+|   |   |       |   |   |       |   +-- pipeline.n.02
+|   |   |       |   |   |       |-- pipe.n.01
+|   |   |       |   |   |       +-- stem.n.04
+|   |   |       |   |   +-- throat.n.03
+|   |   |       |   +-- road.n.01
+|   |   |       |       |-- line.n.14
+|   |   |       |       +-- thoroughfare.n.01
+|   |   |       |           |-- street.n.01
+|   |   |       |           +-- street.n.02
+|   |   |       |-- structure.n.01
+|   |   |       |   |-- arch.n.04
+|   |   |       |   |-- projection.n.04
+|   |   |       |   |   |-- arm.n.02
+|   |   |       |   |   |-- head.n.31
+|   |   |       |   |   |-- tooth.n.02
+|   |   |       |   |   +-- tooth.n.05
+|   |   |       |   |-- area.n.05
+|   |   |       |   |   |-- room.n.01
+|   |   |       |   |   |   |-- bathroom.n.01
+|   |   |       |   |   |   |-- compartment.n.02
+|   |   |       |   |   |   |   |-- luggage_compartment.n.01
+|   |   |       |   |   |   |   |   +-- boot.n.02
+|   |   |       |   |   |   |   |-- box.n.02
+|   |   |       |   |   |   |   +-- box.n.09
+|   |   |       |   |   |   |-- door.n.05
+|   |   |       |   |   |   |-- hall.n.03
+|   |   |       |   |   |   |   +-- floor.n.09
+|   |   |       |   |   |   |-- floor.n.10
+|   |   |       |   |   |   |-- toilet.n.01
+|   |   |       |   |   |   |   +-- head.n.30
+|   |   |       |   |   |   +-- library.n.01
+|   |   |       |   |   |-- box.n.07
+|   |   |       |   |   |-- storage_space.n.01
+|   |   |       |   |   |   +-- drawer.n.01
+|   |   |       |   |   +-- enclosure.n.01
+|   |   |       |   |       |-- lock.n.04
+|   |   |       |   |       |-- pen.n.02
+|   |   |       |   |       +-- playpen.n.01
+|   |   |       |   |-- supporting_structure.n.01
+|   |   |       |   |   |-- support.n.07
+|   |   |       |   |   |   +-- foundation.n.03
+|   |   |       |   |   |       +-- bed.n.08
+|   |   |       |   |   |-- framework.n.03
+|   |   |       |   |   |   |-- frame.n.01
+|   |   |       |   |   |   |-- frame.n.10
+|   |   |       |   |   |   |-- sawhorse.n.01
+|   |   |       |   |   |   +-- window.n.01
+|   |   |       |   |   +-- skeleton.n.04
+|   |   |       |   |-- bridge.n.01
+|   |   |       |   |-- building.n.01
+|   |   |       |   |   |-- place_of_worship.n.01
+|   |   |       |   |   |   +-- church.n.02
+|   |   |       |   |   |-- medical_building.n.01
+|   |   |       |   |   |   +-- hospital.n.01
+|   |   |       |   |   |-- theater.n.01
+|   |   |       |   |   |-- house.n.12
+|   |   |       |   |   |-- library.n.05
+|   |   |       |   |   +-- school.n.02
+|   |   |       |   |-- obstruction.n.01
+|   |   |       |   |   |-- barrier.n.01
+|   |   |       |   |   |   |-- movable_barrier.n.01
+|   |   |       |   |   |   |   +-- door.n.01
+|   |   |       |   |   |   |-- railing.n.01
+|   |   |       |   |   |   |-- fence.n.01
+|   |   |       |   |   |   |   +-- wall.n.07
+|   |   |       |   |   |   +-- fender.n.01
+|   |   |       |   |   +-- tumbler.n.03
+|   |   |       |   |       +-- pin.n.07
+|   |   |       |   |-- door.n.04
+|   |   |       |   |-- floor.n.02
+|   |   |       |   |-- housing.n.01
+|   |   |       |   |   +-- dwelling.n.01
+|   |   |       |   |       +-- house.n.01
+|   |   |       |   |-- establishment.n.04
+|   |   |       |   |   |-- place_of_business.n.01
+|   |   |       |   |   |   |-- office.n.01
+|   |   |       |   |   |   +-- mercantile_establishment.n.01
+|   |   |       |   |   |       +-- shop.n.01
+|   |   |       |   |   +-- institution.n.02
+|   |   |       |   |       +-- penal_institution.n.01
+|   |   |       |   |           +-- correctional_institution.n.01
+|   |   |       |   |               |-- penitentiary.n.01
+|   |   |       |   |               +-- prison.n.01
+|   |   |       |   |-- sail.n.03
+|   |   |       |   |-- partition.n.01
+|   |   |       |   |   +-- wall.n.01
+|   |   |       |   +-- mound.n.04
+|   |   |       |       +-- embankment.n.01
+|   |   |       |           +-- rampart.n.01
+|   |   |       |-- instrumentality.n.03
+|   |   |       |   |-- device.n.01
+|   |   |       |   |   |-- instrument.n.01
+|   |   |       |   |   |   |-- weapon.n.01
+|   |   |       |   |   |   |   |-- projectile.n.01
+|   |   |       |   |   |   |   |   +-- shot.n.02
+|   |   |       |   |   |   |   |       +-- musket_ball.n.01
+|   |   |       |   |   |   |   |-- sword.n.01
+|   |   |       |   |   |   |   |-- gun.n.01
+|   |   |       |   |   |   |   |   +-- firearm.n.01
+|   |   |       |   |   |   |   |       +-- pistol.n.01
+|   |   |       |   |   |   |   |           +-- gat.n.01
+|   |   |       |   |   |   |   +-- knife.n.02
+|   |   |       |   |   |   |-- instrument_of_punishment.n.01
+|   |   |       |   |   |   |   +-- instrument_of_torture.n.01
+|   |   |       |   |   |   |       |-- boot.n.05
+|   |   |       |   |   |   |       +-- rack.n.04
+|   |   |       |   |   |   |-- whip.n.01
+|   |   |       |   |   |   |   +-- cat-o'-nine-tails.n.01
+|   |   |       |   |   |   |-- measuring_instrument.n.01
+|   |   |       |   |   |   |   +-- timepiece.n.01
+|   |   |       |   |   |   |       |-- clock.n.01
+|   |   |       |   |   |   |       +-- watch.n.01
+|   |   |       |   |   |   +-- engine.n.04
+|   |   |       |   |   |-- support.n.10
+|   |   |       |   |   |   |-- rest.n.06
+|   |   |       |   |   |   |   +-- armrest.n.01
+|   |   |       |   |   |   |       +-- arm.n.04
+|   |   |       |   |   |   |-- bridge.n.06
+|   |   |       |   |   |   |-- andiron.n.01
+|   |   |       |   |   |   |-- foot.n.11
+|   |   |       |   |   |   |-- leg.n.03
+|   |   |       |   |   |   |-- structural_member.n.01
+|   |   |       |   |   |   |   +-- plate.n.12
+|   |   |       |   |   |   |-- shelf.n.01
+|   |   |       |   |   |   +-- rib.n.01
+|   |   |       |   |   |       +-- screw_thread.n.01
+|   |   |       |   |   |-- restraint.n.06
+|   |   |       |   |   |   |-- band.n.13
+|   |   |       |   |   |   |-- brake.n.01
+|   |   |       |   |   |   |-- brake.n.05
+|   |   |       |   |   |   |-- fastener.n.02
+|   |   |       |   |   |   |   |-- link.n.02
+|   |   |       |   |   |   |   |   +-- bridge.n.08
+|   |   |       |   |   |   |   |-- button.n.01
+|   |   |       |   |   |   |   |-- catch.n.07
+|   |   |       |   |   |   |   |   +-- hook.n.01
+|   |   |       |   |   |   |   |-- knot.n.02
+|   |   |       |   |   |   |   |-- lock.n.01
+|   |   |       |   |   |   |   |-- nail.n.02
+|   |   |       |   |   |   |   |-- pin.n.09
+|   |   |       |   |   |   |   +-- screw.n.04
+|   |   |       |   |   |   |       +-- worm.n.04
+|   |   |       |   |   |   |-- chain.n.05
+|   |   |       |   |   |   |-- catch.n.06
+|   |   |       |   |   |   |   +-- pawl.n.01
+|   |   |       |   |   |   |-- lock.n.05
+|   |   |       |   |   |   +-- brake_shoe.n.01
+|   |   |       |   |   |-- signaling_device.n.01
+|   |   |       |   |   |   |-- bell.n.01
+|   |   |       |   |   |   +-- whistle.n.04
+|   |   |       |   |   |-- mechanism.n.05
+|   |   |       |   |   |   |-- control.n.09
+|   |   |       |   |   |   |   |-- switch.n.01
+|   |   |       |   |   |   |   |   +-- push_button.n.01
+|   |   |       |   |   |   |   |       +-- doorbell.n.01
+|   |   |       |   |   |   |   +-- handwheel.n.02
+|   |   |       |   |   |   |       +-- steering_wheel.n.01
+|   |   |       |   |   |   |-- rotating_mechanism.n.01
+|   |   |       |   |   |   |   |-- blade.n.08
+|   |   |       |   |   |   |   +-- circle.n.08
+|   |   |       |   |   |   |-- carriage.n.04
+|   |   |       |   |   |   |-- mechanical_device.n.01
+|   |   |       |   |   |   |   |-- pump.n.01
+|   |   |       |   |   |   |   |   +-- grease-gun.n.01
+|   |   |       |   |   |   |   |-- striker.n.05
+|   |   |       |   |   |   |   |   |-- hammer.n.01
+|   |   |       |   |   |   |   |   |-- hammer.n.06
+|   |   |       |   |   |   |   |   |-- head.n.29
+|   |   |       |   |   |   |   |   +-- clapper.n.03
+|   |   |       |   |   |   |   |-- hook.n.04
+|   |   |       |   |   |   |   |-- winder.n.02
+|   |   |       |   |   |   |   |-- machine.n.04
+|   |   |       |   |   |   |   |   |-- inclined_plane.n.01
+|   |   |       |   |   |   |   |   |   +-- screw.n.02
+|   |   |       |   |   |   |   |   +-- wheel.n.01
+|   |   |       |   |   |   |   |-- propeller.n.01
+|   |   |       |   |   |   |   |   +-- screw.n.03
+|   |   |       |   |   |   |   +-- wheelwork.n.01
+|   |   |       |   |   |   |       +-- gearing.n.01
+|   |   |       |   |   |   |-- lock.n.03
+|   |   |       |   |   |   |-- axis.n.06
+|   |   |       |   |   |   |   +-- pivot.n.02
+|   |   |       |   |   |   +-- steering_system.n.01
+|   |   |       |   |   |       +-- helm.n.01
+|   |   |       |   |   |           +-- wheel.n.04
+|   |   |       |   |   |-- musical_instrument.n.01
+|   |   |       |   |   |   |-- percussion_instrument.n.01
+|   |   |       |   |   |   |   |-- chime.n.01
+|   |   |       |   |   |   |   +-- kettle.n.04
+|   |   |       |   |   |   +-- wind_instrument.n.01
+|   |   |       |   |   |       |-- brass.n.02
+|   |   |       |   |   |       |   |-- cornet.n.01
+|   |   |       |   |   |       |   +-- french_horn.n.01
+|   |   |       |   |   |       |-- pipe.n.04
+|   |   |       |   |   |       |   +-- fipple_flute.n.01
+|   |   |       |   |   |       |       +-- pennywhistle.n.01
+|   |   |       |   |   |       |-- organ_pipe.n.01
+|   |   |       |   |   |       +-- whistle.n.03
+|   |   |       |   |   |-- runner.n.09
+|   |   |       |   |   |   +-- blade.n.07
+|   |   |       |   |   |-- electronic_device.n.01
+|   |   |       |   |   |   +-- display.n.06
+|   |   |       |   |   |       |-- display_panel.n.01
+|   |   |       |   |   |       +-- window.n.08
+|   |   |       |   |   |-- electrical_device.n.01
+|   |   |       |   |   |   |-- control_panel.n.01
+|   |   |       |   |   |   |-- circuit.n.01
+|   |   |       |   |   |   |   |-- computer_circuit.n.01
+|   |   |       |   |   |   |   |   +-- printed_circuit.n.01
+|   |   |       |   |   |   |   |       +-- circuit_board.n.01
+|   |   |       |   |   |   |   +-- bridge.n.02
+|   |   |       |   |   |   |-- brush.n.04
+|   |   |       |   |   |   |-- reactor.n.01
+|   |   |       |   |   |   |   +-- coil.n.06
+|   |   |       |   |   |   |       +-- read/write_head.n.01
+|   |   |       |   |   |   +-- resistor.n.01
+|   |   |       |   |   |       +-- potential_divider.n.01
+|   |   |       |   |   |           +-- potentiometer.n.02
+|   |   |       |   |   |-- dental_appliance.n.01
+|   |   |       |   |   |   +-- denture.n.01
+|   |   |       |   |   |       +-- bridge.n.07
+|   |   |       |   |   |-- source_of_illumination.n.01
+|   |   |       |   |   |   +-- lamp.n.01
+|   |   |       |   |   |       +-- electric_lamp.n.01
+|   |   |       |   |   |           +-- light_bulb.n.01
+|   |   |       |   |   |-- release.n.08
+|   |   |       |   |   |-- comb.n.01
+|   |   |       |   |   |-- conductor.n.04
+|   |   |       |   |   |   |-- cord.n.03
+|   |   |       |   |   |   |-- cable.n.02
+|   |   |       |   |   |   |-- electrode.n.01
+|   |   |       |   |   |   |   +-- anode.n.01
+|   |   |       |   |   |   |       +-- plate.n.10
+|   |   |       |   |   |   +-- wire.n.02
+|   |   |       |   |   |-- damper.n.02
+|   |   |       |   |   |   +-- shock_absorber.n.01
+|   |   |       |   |   |-- machine.n.01
+|   |   |       |   |   |   |-- motor.n.01
+|   |   |       |   |   |   |   +-- engine.n.01
+|   |   |       |   |   |   +-- stamp.n.07
+|   |   |       |   |   |-- bait.n.02
+|   |   |       |   |   |   +-- fisherman's_lure.n.01
+|   |   |       |   |   |       +-- fly.n.05
+|   |   |       |   |   |-- indicator.n.03
+|   |   |       |   |   |   +-- pointer.n.02
+|   |   |       |   |   |       |-- hand.n.08
+|   |   |       |   |   |       +-- needle.n.02
+|   |   |       |   |   |-- noisemaker.n.01
+|   |   |       |   |   |   +-- horn.n.01
+|   |   |       |   |   |-- horn.n.08
+|   |   |       |   |   |-- alarm.n.02
+|   |   |       |   |   |   |-- horn.n.09
+|   |   |       |   |   |   +-- automobile_horn.n.01
+|   |   |       |   |   |-- key.n.01
+|   |   |       |   |   |-- corrective.n.01
+|   |   |       |   |   |   +-- prosthesis.n.01
+|   |   |       |   |   |       +-- peg.n.04
+|   |   |       |   |   |-- lighter.n.02
+|   |   |       |   |   |   |-- match.n.01
+|   |   |       |   |   |   +-- match.n.03
+|   |   |       |   |   |-- stylus.n.01
+|   |   |       |   |   |   +-- phonograph_needle.n.01
+|   |   |       |   |   |-- trap.n.01
+|   |   |       |   |   |   +-- net.n.02
+|   |   |       |   |   |-- holding_device.n.01
+|   |   |       |   |   |   +-- holder.n.01
+|   |   |       |   |   |       +-- peg.n.06
+|   |   |       |   |   |-- elastic_device.n.01
+|   |   |       |   |   |   +-- spring.n.02
+|   |   |       |   |   |-- memory_device.n.01
+|   |   |       |   |   |   +-- memory.n.04
+|   |   |       |   |   +-- airfoil.n.01
+|   |   |       |   |       +-- wing.n.02
+|   |   |       |   |-- container.n.01
+|   |   |       |   |   |-- bag.n.01
+|   |   |       |   |   |   |-- pouch.n.01
+|   |   |       |   |   |   |   +-- pocket.n.01
+|   |   |       |   |   |   +-- skin.n.06
+|   |   |       |   |   |-- bag.n.04
+|   |   |       |   |   |-- case.n.05
+|   |   |       |   |   |   |-- baggage.n.01
+|   |   |       |   |   |   |   +-- bag.n.06
+|   |   |       |   |   |   +-- shoe.n.02
+|   |   |       |   |   |-- vessel.n.03
+|   |   |       |   |   |   |-- basin.n.01
+|   |   |       |   |   |   |-- bath.n.01
+|   |   |       |   |   |   |-- bathtub.n.01
+|   |   |       |   |   |   |-- bottle.n.01
+|   |   |       |   |   |   |-- bottle.n.03
+|   |   |       |   |   |   |-- bucket.n.01
+|   |   |       |   |   |   +-- pot.n.01
+|   |   |       |   |   |       +-- kettle.n.01
+|   |   |       |   |   |-- basket.n.01
+|   |   |       |   |   |-- box.n.01
+|   |   |       |   |   |   +-- chest.n.02
+|   |   |       |   |   |-- package.n.02
+|   |   |       |   |   |-- mold.n.02
+|   |   |       |   |   |   +-- pig_bed.n.01
+|   |   |       |   |   |-- receptacle.n.01
+|   |   |       |   |   |   |-- plate.n.13
+|   |   |       |   |   |   +-- tray.n.01
+|   |   |       |   |   +-- pot.n.04
+|   |   |       |   |-- equipment.n.01
+|   |   |       |   |   |-- sports_equipment.n.01
+|   |   |       |   |   |   |-- baseball_equipment.n.01
+|   |   |       |   |   |   |   |-- base.n.03
+|   |   |       |   |   |   |   |   +-- home_plate.n.01
+|   |   |       |   |   |   |   +-- baseball_glove.n.01
+|   |   |       |   |   |   |-- badminton_equipment.n.01
+|   |   |       |   |   |   |   +-- shuttlecock.n.01
+|   |   |       |   |   |   |-- golf_equipment.n.01
+|   |   |       |   |   |   |   |-- pin.n.08
+|   |   |       |   |   |   |   +-- golf_club.n.02
+|   |   |       |   |   |   |       +-- wood.n.08
+|   |   |       |   |   |   |           +-- spoon.n.03
+|   |   |       |   |   |   |-- boxing_equipment.n.01
+|   |   |       |   |   |   |   +-- boxing_glove.n.01
+|   |   |       |   |   |   |-- hammer.n.05
+|   |   |       |   |   |   |-- gymnastic_apparatus.n.01
+|   |   |       |   |   |   |   +-- horse.n.02
+|   |   |       |   |   |   +-- stick.n.06
+|   |   |       |   |   |-- game_equipment.n.01
+|   |   |       |   |   |   |-- ball.n.01
+|   |   |       |   |   |   |-- goal.n.03
+|   |   |       |   |   |   |   |-- basket.n.03
+|   |   |       |   |   |   |   +-- net.n.04
+|   |   |       |   |   |   |-- man.n.10
+|   |   |       |   |   |   |   +-- chessman.n.01
+|   |   |       |   |   |   |       +-- knight.n.02
+|   |   |       |   |   |   |-- net.n.05
+|   |   |       |   |   |   |-- bowling_equipment.n.01
+|   |   |       |   |   |   |   +-- bowling_pin.n.01
+|   |   |       |   |   |   +-- roulette_wheel.n.01
+|   |   |       |   |   |-- photographic_equipment.n.01
+|   |   |       |   |   |   +-- camera.n.01
+|   |   |       |   |   +-- electronic_equipment.n.01
+|   |   |       |   |       +-- television_equipment.n.01
+|   |   |       |   |           +-- television_camera.n.01
+|   |   |       |   |-- furnishing.n.02
+|   |   |       |   |   |-- furniture.n.01
+|   |   |       |   |   |   |-- bedroom_furniture.n.01
+|   |   |       |   |   |   |   +-- bed.n.01
+|   |   |       |   |   |   |-- table.n.03
+|   |   |       |   |   |   |   +-- dining_table.n.01
+|   |   |       |   |   |   |-- seat.n.03
+|   |   |       |   |   |   |   +-- box.n.08
+|   |   |       |   |   |   |-- chest_of_drawers.n.01
+|   |   |       |   |   |   +-- table.n.02
+|   |   |       |   |   +-- curtain.n.01
+|   |   |       |   |       +-- drop_curtain.n.01
+|   |   |       |   |-- implement.n.01
+|   |   |       |   |   |-- tool.n.01
+|   |   |       |   |   |   |-- cutting_implement.n.01
+|   |   |       |   |   |   |   |-- blade.n.09
+|   |   |       |   |   |   |   +-- cutter.n.06
+|   |   |       |   |   |   |       +-- edge_tool.n.01
+|   |   |       |   |   |   |           |-- knife.n.01
+|   |   |       |   |   |   |           +-- scissors.n.01
+|   |   |       |   |   |   |-- comb.n.03
+|   |   |       |   |   |   |-- fork.n.04
+|   |   |       |   |   |   |-- hand_tool.n.01
+|   |   |       |   |   |   |   |-- hammer.n.02
+|   |   |       |   |   |   |   |-- plane.n.05
+|   |   |       |   |   |   |   |-- shovel.n.01
+|   |   |       |   |   |   |   |   +-- hand_shovel.n.01
+|   |   |       |   |   |   |   |       +-- spade.n.02
+|   |   |       |   |   |   |   +-- square.n.08
+|   |   |       |   |   |   |-- power_tool.n.01
+|   |   |       |   |   |   |   |-- hammer.n.07
+|   |   |       |   |   |   |   +-- plane.n.04
+|   |   |       |   |   |   +-- shaping_tool.n.01
+|   |   |       |   |   |       +-- die.n.02
+|   |   |       |   |   |           +-- stamp.n.08
+|   |   |       |   |   |-- brush.n.02
+|   |   |       |   |   |-- bar.n.03
+|   |   |       |   |   |   |-- lever.n.01
+|   |   |       |   |   |   |   |-- pedal.n.02
+|   |   |       |   |   |   |   |   +-- accelerator.n.01
+|   |   |       |   |   |   |   |-- key.n.15
+|   |   |       |   |   |   |   +-- stick.n.03
+|   |   |       |   |   |   |-- track.n.09
+|   |   |       |   |   |   +-- rail.n.04
+|   |   |       |   |   |-- stick.n.01
+|   |   |       |   |   |   +-- drumstick.n.02
+|   |   |       |   |   |       +-- mallet.n.02
+|   |   |       |   |   |-- hook.n.05
+|   |   |       |   |   |-- needle.n.03
+|   |   |       |   |   |-- writing_implement.n.01
+|   |   |       |   |   |   |-- pen.n.01
+|   |   |       |   |   |   +-- pencil.n.01
+|   |   |       |   |   |-- rod.n.01
+|   |   |       |   |   +-- stick.n.07
+|   |   |       |   |-- conveyance.n.03
+|   |   |       |   |   |-- vehicle.n.01
+|   |   |       |   |   |   |-- craft.n.02
+|   |   |       |   |   |   |   |-- vessel.n.02
+|   |   |       |   |   |   |   |   |-- boat.n.01
+|   |   |       |   |   |   |   |   +-- ship.n.01
+|   |   |       |   |   |   |   +-- aircraft.n.01
+|   |   |       |   |   |   |       +-- heavier-than-air_craft.n.01
+|   |   |       |   |   |   |           +-- airplane.n.01
+|   |   |       |   |   |   +-- wheeled_vehicle.n.01
+|   |   |       |   |   |       |-- wagon.n.01
+|   |   |       |   |   |       |   +-- cart.n.01
+|   |   |       |   |   |       |-- handcart.n.01
+|   |   |       |   |   |       |-- car.n.02
+|   |   |       |   |   |       |   +-- passenger_car.n.01
+|   |   |       |   |   |       |-- horse-drawn_vehicle.n.01
+|   |   |       |   |   |       |   +-- carriage.n.02
+|   |   |       |   |   |       |-- baby_buggy.n.01
+|   |   |       |   |   |       |-- self-propelled_vehicle.n.01
+|   |   |       |   |   |       |   |-- tracked_vehicle.n.01
+|   |   |       |   |   |       |   |   +-- caterpillar.n.02
+|   |   |       |   |   |       |   +-- locomotive.n.01
+|   |   |       |   |   |       +-- bicycle.n.01
+|   |   |       |   |   +-- public_transport.n.01
+|   |   |       |   |       +-- train.n.01
+|   |   |       |   |-- ceramic.n.01
+|   |   |       |   |   +-- brick.n.01
+|   |   |       |   |-- connection.n.03
+|   |   |       |   |   |-- attachment.n.04
+|   |   |       |   |   |   +-- ligament.n.02
+|   |   |       |   |   |       |-- chain.n.03
+|   |   |       |   |   |       +-- wire.n.01
+|   |   |       |   |   +-- telephone_line.n.02
+|   |   |       |   |-- weaponry.n.01
+|   |   |       |   |   +-- armament.n.01
+|   |   |       |   |       +-- artillery.n.01
+|   |   |       |   |-- system.n.01
+|   |   |       |   |   |-- mechanical_system.n.01
+|   |   |       |   |   |   +-- production_line.n.01
+|   |   |       |   |   +-- network.n.05
+|   |   |       |   |       +-- computer_network.n.01
+|   |   |       |   |           +-- internet.n.01
+|   |   |       |   +-- toiletry.n.01
+|   |   |       |       +-- cosmetic.n.01
+|   |   |       |           +-- pencil.n.04
+|   |   |       |-- covering.n.02
+|   |   |       |   |-- cloth_covering.n.01
+|   |   |       |   |   |-- sleeve.n.01
+|   |   |       |   |   |-- knee.n.03
+|   |   |       |   |   |-- leg.n.07
+|   |   |       |   |   +-- skirt.n.01
+|   |   |       |   |-- footwear.n.02
+|   |   |       |   |   |-- boot.n.01
+|   |   |       |   |   +-- shoe.n.01
+|   |   |       |   |       +-- pump.n.03
+|   |   |       |   |-- protective_covering.n.01
+|   |   |       |   |   |-- housing.n.02
+|   |   |       |   |   |   +-- shell.n.08
+|   |   |       |   |   |       +-- boot.n.04
+|   |   |       |   |   |-- shield.n.01
+|   |   |       |   |   |   +-- plate.n.14
+|   |   |       |   |   |       +-- horseshoe.n.02
+|   |   |       |   |   |-- roof.n.01
+|   |   |       |   |   |-- roof.n.02
+|   |   |       |   |   +-- shelter.n.02
+|   |   |       |   |       +-- canopy.n.03
+|   |   |       |   |           +-- umbrella.n.01
+|   |   |       |   |-- clothing.n.01
+|   |   |       |   |   |-- garment.n.01
+|   |   |       |   |   |   |-- overgarment.n.01
+|   |   |       |   |   |   |   +-- coat.n.01
+|   |   |       |   |   |   |-- shirt.n.01
+|   |   |       |   |   |   |-- skirt.n.02
+|   |   |       |   |   |   |-- trouser.n.01
+|   |   |       |   |   |   +-- trouser.n.02
+|   |   |       |   |   |-- neckpiece.n.01
+|   |   |       |   |   |   +-- collar.n.03
+|   |   |       |   |   |-- woman's_clothing.n.01
+|   |   |       |   |   |   +-- dress.n.01
+|   |   |       |   |   |-- attire.n.01
+|   |   |       |   |   |-- apparel.n.01
+|   |   |       |   |   |-- handwear.n.01
+|   |   |       |   |   |   +-- glove.n.02
+|   |   |       |   |   |-- headdress.n.01
+|   |   |       |   |   |   +-- hat.n.01
+|   |   |       |   |   +-- footwear.n.01
+|   |   |       |   |       +-- hosiery.n.01
+|   |   |       |   |           |-- sock.n.01
+|   |   |       |   |           +-- stocking.n.01
+|   |   |       |   |-- coating.n.01
+|   |   |       |   |-- finger.n.03
+|   |   |       |   |-- flap.n.01
+|   |   |       |   |   |-- tent-fly.n.01
+|   |   |       |   |   +-- tongue.n.07
+|   |   |       |   |-- thumb.n.02
+|   |   |       |   +-- toe.n.02
+|   |   |       |-- plaything.n.01
+|   |   |       |   +-- ball.n.06
+|   |   |       |-- decoration.n.01
+|   |   |       |   |-- design.n.04
+|   |   |       |   |   |-- marking.n.02
+|   |   |       |   |   |   +-- stripe.n.05
+|   |   |       |   |   |       +-- band.n.03
+|   |   |       |   |   |           +-- collar.n.02
+|   |   |       |   |   |-- emblem.n.01
+|   |   |       |   |   |   +-- flag.n.01
+|   |   |       |   |   +-- device.n.04
+|   |   |       |   |       +-- seal.n.02
+|   |   |       |   |-- adornment.n.01
+|   |   |       |   |   |-- band.n.04
+|   |   |       |   |   +-- jewelry.n.01
+|   |   |       |   |       |-- ring.n.08
+|   |   |       |   |       |-- necklace.n.01
+|   |   |       |   |       |   |-- chain.n.09
+|   |   |       |   |       |   |-- chain.n.10
+|   |   |       |   |       |   +-- choker.n.03
+|   |   |       |   |       |-- jewel.n.01
+|   |   |       |   |       +-- pin.n.01
+|   |   |       |   +-- molding.n.02
+|   |   |       |       +-- ovolo.n.01
+|   |   |       |-- strip.n.02
+|   |   |       |   |-- band.n.07
+|   |   |       |   |   |-- collar.n.01
+|   |   |       |   |   |-- hoop.n.02
+|   |   |       |   |   |   +-- collar.n.04
+|   |   |       |   |   +-- collar.n.06
+|   |   |       |   |-- band.n.11
+|   |   |       |   +-- band.n.12
+|   |   |       |-- fixture.n.01
+|   |   |       |   +-- plumbing_fixture.n.01
+|   |   |       |       |-- sink.n.01
+|   |   |       |       |   +-- washbasin.n.01
+|   |   |       |       +-- toilet.n.02
+|   |   |       |-- layer.n.01
+|   |   |       |   |-- cushion.n.02
+|   |   |       |   +-- wall.n.06
+|   |   |       |-- surface.n.01
+|   |   |       |   |-- bed.n.07
+|   |   |       |   |-- board.n.09
+|   |   |       |   |-- horizontal_surface.n.01
+|   |   |       |   |   |-- platform.n.01
+|   |   |       |   |   |   |-- deck.n.01
+|   |   |       |   |   |   |   +-- upper_deck.n.01
+|   |   |       |   |   |   |       +-- bridge.n.09
+|   |   |       |   |   |   |-- ring.n.07
+|   |   |       |   |   |   +-- stage.n.03
+|   |   |       |   |   |       +-- wing.n.03
+|   |   |       |   |   +-- floor.n.01
+|   |   |       |   |-- side.n.05
+|   |   |       |   |   |-- edge.n.03
+|   |   |       |   |   |   +-- brim.n.01
+|   |   |       |   |   |       +-- collar.n.05
+|   |   |       |   |   |-- front.n.04
+|   |   |       |   |   |   |-- face.n.08
+|   |   |       |   |   |   |-- nose.n.02
+|   |   |       |   |   |   |-- nose.n.03
+|   |   |       |   |   |   +-- bow.n.03
+|   |   |       |   |   |-- obverse.n.02
+|   |   |       |   |   |   +-- head.n.28
+|   |   |       |   |   |-- reverse.n.04
+|   |   |       |   |   |   +-- tail.n.06
+|   |   |       |   |   +-- rear.n.05
+|   |   |       |   |       |-- tail.n.07
+|   |   |       |   |       +-- stern.n.01
+|   |   |       |   |-- face.n.04
+|   |   |       |   |-- vertical_surface.n.01
+|   |   |       |   |   +-- face.n.13
+|   |   |       |   +-- skin.n.02
+|   |   |       |-- opening.n.10
+|   |   |       |   |-- bell.n.10
+|   |   |       |   |-- hole.n.02
+|   |   |       |   |   |-- cup.n.07
+|   |   |       |   |   +-- eye.n.05
+|   |   |       |   |-- fly.n.03
+|   |   |       |   |-- mouth.n.08
+|   |   |       |   |-- neck.n.05
+|   |   |       |   |-- spout.n.01
+|   |   |       |   |   +-- nozzle.n.01
+|   |   |       |   |-- throat.n.02
+|   |   |       |   |-- window.n.02
+|   |   |       |   +-- window.n.07
+|   |   |       |-- building_material.n.01
+|   |   |       |   |-- lumber.n.01
+|   |   |       |   |   +-- board.n.02
+|   |   |       |   |-- stone.n.02
+|   |   |       |   |   +-- paving_stone.n.01
+|   |   |       |   |       +-- flag.n.06
+|   |   |       |   +-- building_block.n.02
+|   |   |       |       +-- keystone.n.02
+|   |   |       |-- sheet.n.06
+|   |   |       |   |-- board.n.03
+|   |   |       |   |-- membrane.n.01
+|   |   |       |   |   +-- drumhead.n.01
+|   |   |       |   |-- plate.n.02
+|   |   |       |   |-- plate.n.11
+|   |   |       |   |-- panel.n.01
+|   |   |       |   |   +-- window.n.03
+|   |   |       |   +-- plate_glass.n.01
+|   |   |       |       +-- pane.n.01
+|   |   |       |           +-- windowpane.n.01
+|   |   |       |-- article.n.02
+|   |   |       |   +-- ware.n.01
+|   |   |       |       +-- tableware.n.01
+|   |   |       |           |-- crockery.n.01
+|   |   |       |           |   |-- dish.n.01
+|   |   |       |           |   |   +-- gravy_boat.n.01
+|   |   |       |           |   +-- cup.n.01
+|   |   |       |           |-- cutlery.n.02
+|   |   |       |           |   |-- fork.n.01
+|   |   |       |           |   +-- spoon.n.01
+|   |   |       |           +-- flatware.n.01
+|   |   |       |               +-- plate.n.04
+|   |   |       |-- creation.n.02
+|   |   |       |   |-- product.n.02
+|   |   |       |   |   |-- work.n.02
+|   |   |       |   |   |   +-- publication.n.01
+|   |   |       |   |   |       +-- book.n.01
+|   |   |       |   |   |-- book.n.02
+|   |   |       |   |   +-- book.n.11
+|   |   |       |   |-- representation.n.02
+|   |   |       |   |   |-- photograph.n.01
+|   |   |       |   |   |   +-- frame.n.02
+|   |   |       |   |   |-- map.n.01
+|   |   |       |   |   |-- copy.n.02
+|   |   |       |   |   |   +-- duplicate.n.02
+|   |   |       |   |   |       +-- match.n.04
+|   |   |       |   |   |-- picture.n.01
+|   |   |       |   |   +-- illustration.n.04
+|   |   |       |   |       +-- plate.n.03
+|   |   |       |   +-- art.n.01
+|   |   |       |       +-- graphic_art.n.01
+|   |   |       |           +-- painting.n.01
+|   |   |       |-- button.n.07
+|   |   |       |-- block.n.01
+|   |   |       |   |-- cake.n.01
+|   |   |       |   |-- nut.n.03
+|   |   |       |   +-- ingot.n.01
+|   |   |       |       +-- pig.n.06
+|   |   |       |-- line.n.18
+|   |   |       |   +-- cord.n.01
+|   |   |       |       +-- thread.n.01
+|   |   |       |-- fabric.n.01
+|   |   |       |   |-- cord.n.04
+|   |   |       |   |-- haircloth.n.01
+|   |   |       |   +-- net.n.06
+|   |   |       |-- padding.n.01
+|   |   |       |   |-- cushion.n.03
+|   |   |       |   +-- pad.n.04
+|   |   |       |       +-- rat.n.05
+|   |   |       |-- facility.n.01
+|   |   |       |   |-- depository.n.01
+|   |   |       |   |   |-- drop.n.08
+|   |   |       |   |   |-- library.n.03
+|   |   |       |   |   +-- storehouse.n.01
+|   |   |       |   +-- station.n.01
+|   |   |       |-- commodity.n.01
+|   |   |       |   |-- merchandise.n.01
+|   |   |       |   |   +-- line.n.22
+|   |   |       |   +-- consumer_goods.n.01
+|   |   |       |       +-- durables.n.01
+|   |   |       |           +-- appliance.n.02
+|   |   |       |               +-- home_appliance.n.01
+|   |   |       |                   +-- kitchen_appliance.n.01
+|   |   |       |                       +-- oven.n.01
+|   |   |       +-- square.n.07
+|   |   |-- geological_formation.n.01
+|   |   |   |-- natural_depression.n.01
+|   |   |   |   |-- basin.n.03
+|   |   |   |   |-- bed.n.03
+|   |   |   |   +-- hole.n.05
+|   |   |   |       +-- kettle_hole.n.01
+|   |   |   |-- range.n.04
+|   |   |   |-- cliff.n.01
+|   |   |   |-- natural_elevation.n.01
+|   |   |   |   |-- promontory.n.01
+|   |   |   |   |-- ridge.n.01
+|   |   |   |   |   |-- reef.n.01
+|   |   |   |   |   |   +-- coral_reef.n.01
+|   |   |   |   |   |       +-- key.n.08
+|   |   |   |   |   +-- ledge.n.01
+|   |   |   |   +-- highland.n.01
+|   |   |   |       +-- tableland.n.01
+|   |   |   |           +-- mesa.n.01
+|   |   |   |-- mouth.n.04
+|   |   |   |-- spring.n.03
+|   |   |   +-- wall.n.05
+|   |   |-- ribbon.n.01
+|   |   |   +-- blade.n.03
+|   |   |-- part.n.02
+|   |   |   |-- bulb.n.03
+|   |   |   |-- appendage.n.03
+|   |   |   |   +-- handle.n.01
+|   |   |   |       +-- pommel.n.02
+|   |   |   |           +-- horn.n.04
+|   |   |   |-- section.n.04
+|   |   |   |   +-- leaf.n.03
+|   |   |   |-- neck.n.04
+|   |   |   |-- piece.n.01
+|   |   |   |   +-- piece_of_cloth.n.01
+|   |   |   |       |-- sail.n.01
+|   |   |   |       +-- train.n.05
+|   |   |   |-- toe.n.04
+|   |   |   +-- component.n.03
+|   |   |       +-- addition.n.01
+|   |   |           +-- annex.n.01
+|   |   |-- land.n.04
+|   |   |   |-- floor.n.04
+|   |   |   |-- island.n.01
+|   |   |   |-- neck.n.02
+|   |   |   +-- cape.n.01
+|   |   |       +-- spit.n.01
+|   |   |-- head.n.17
+|   |   |-- moon.n.02
+|   |   |-- snake.n.05
+|   |   +-- wall.n.02
+|   |-- thing.n.12
+|   |   |-- part.n.03
+|   |   |   +-- body_part.n.01
+|   |   |       |-- structure.n.04
+|   |   |       |   |-- skeletal_structure.n.01
+|   |   |       |   |   +-- arch.n.02
+|   |   |       |   |-- ball.n.10
+|   |   |       |   |-- blade.n.06
+|   |   |       |   |-- neural_structure.n.01
+|   |   |       |   |   |-- brain.n.01
+|   |   |       |   |   +-- medulla_oblongata.n.01
+|   |   |       |   |-- bridge.n.04
+|   |   |       |   |-- bulb.n.06
+|   |   |       |   |-- plate.n.09
+|   |   |       |   |   +-- comb.n.04
+|   |   |       |   |-- cartilaginous_structure.n.01
+|   |   |       |   |   +-- auricle.n.02
+|   |   |       |   |-- filament.n.03
+|   |   |       |   |   +-- hair.n.04
+|   |   |       |   |-- head.n.25
+|   |   |       |   |-- head.n.26
+|   |   |       |   |-- passage.n.07
+|   |   |       |   |   +-- orifice.n.01
+|   |   |       |   |       |-- rima.n.01
+|   |   |       |   |       |   +-- mouth.n.01
+|   |   |       |   |       +-- mouth.n.02
+|   |   |       |   |-- horny_structure.n.01
+|   |   |       |   |   +-- nail.n.01
+|   |   |       |   |-- cavity.n.04
+|   |   |       |   |   |-- sac.n.04
+|   |   |       |   |   |   +-- pouch.n.03
+|   |   |       |   |   +-- tubular_cavity.n.01
+|   |   |       |   |       +-- throat.n.01
+|   |   |       |   |-- root.n.08
+|   |   |       |   +-- tooth.n.03
+|   |   |       |-- external_body_part.n.01
+|   |   |       |   |-- extremity.n.01
+|   |   |       |   |   +-- limb.n.01
+|   |   |       |   |       |-- arm.n.01
+|   |   |       |   |       |-- leg.n.01
+|   |   |       |   |       |   +-- pin.n.05
+|   |   |       |   |       +-- leg.n.02
+|   |   |       |   |-- breast.n.01
+|   |   |       |   |-- face.n.01
+|   |   |       |   |-- face.n.07
+|   |   |       |   |-- extremity.n.05
+|   |   |       |   |   |-- finger.n.01
+|   |   |       |   |   |   +-- thumb.n.01
+|   |   |       |   |   |-- vertebrate_foot.n.01
+|   |   |       |   |   |   |-- foot.n.01
+|   |   |       |   |   |   +-- animal_foot.n.01
+|   |   |       |   |   |       +-- paw.n.01
+|   |   |       |   |   |           +-- forepaw.n.01
+|   |   |       |   |   |               +-- hand.n.13
+|   |   |       |   |   |-- hand.n.01
+|   |   |       |   |   +-- toe.n.01
+|   |   |       |   |-- head.n.01
+|   |   |       |   |-- lip.n.01
+|   |   |       |   |-- neck.n.01
+|   |   |       |   +-- throat.n.04
+|   |   |       |-- organ.n.01
+|   |   |       |   |-- gland.n.01
+|   |   |       |   |   +-- exocrine_gland.n.01
+|   |   |       |   |       +-- mammary_gland.n.01
+|   |   |       |   |           +-- udder.n.01
+|   |   |       |   |-- reproductive_organ.n.01
+|   |   |       |   |   +-- male_reproductive_gland.n.01
+|   |   |       |   |       +-- testis.n.01
+|   |   |       |   |-- erectile_organ.n.01
+|   |   |       |   |   +-- clitoris.n.01
+|   |   |       |   |-- sense_organ.n.01
+|   |   |       |   |   |-- ear.n.01
+|   |   |       |   |   |-- eye.n.01
+|   |   |       |   |   +-- chemoreceptor.n.01
+|   |   |       |   |       +-- nose.n.01
+|   |   |       |   |-- foot.n.06
+|   |   |       |   |-- internal_organ.n.01
+|   |   |       |   |   |-- heart.n.02
+|   |   |       |   |   +-- stomach.n.01
+|   |   |       |   |-- contractile_organ.n.01
+|   |   |       |   |   +-- muscle.n.01
+|   |   |       |   |-- tongue.n.01
+|   |   |       |   +-- wing.n.01
+|   |   |       |-- tissue.n.01
+|   |   |       |   |-- isthmus.n.02
+|   |   |       |   +-- animal_tissue.n.01
+|   |   |       |       |-- connective_tissue.n.01
+|   |   |       |       |   |-- bone.n.01
+|   |   |       |       |   |   |-- ossicle.n.01
+|   |   |       |       |   |   |   +-- auditory_ossicle.n.01
+|   |   |       |       |   |   |       +-- malleus.n.01
+|   |   |       |       |   |   +-- tooth.n.01
+|   |   |       |       |   +-- skin.n.01
+|   |   |       |       |-- muscle.n.02
+|   |   |       |       |-- nervous_tissue.n.01
+|   |   |       |       |   +-- fiber_bundle.n.01
+|   |   |       |       |       +-- nerve.n.01
+|   |   |       |       +-- adipose_tissue.n.01
+|   |   |       |           +-- belly.n.02
+|   |   |       |               +-- pot.n.07
+|   |   |       |-- process.n.05
+|   |   |       |   |-- tail.n.01
+|   |   |       |   |   |-- brush.n.05
+|   |   |       |   |   +-- flag.n.07
+|   |   |       |   |-- crest.n.05
+|   |   |       |   |   +-- comb.n.02
+|   |   |       |   |-- plant_process.n.01
+|   |   |       |   |   +-- hair.n.03
+|   |   |       |   |-- hair.n.06
+|   |   |       |   |-- horn.n.02
+|   |   |       |   +-- horn.n.06
+|   |   |       |-- thorax.n.02
+|   |   |       |-- feature.n.02
+|   |   |       |   +-- chin.n.01
+|   |   |       |-- system.n.06
+|   |   |       |   +-- skeletal_system.n.01
+|   |   |       |-- joint.n.01
+|   |   |       |   |-- synovial_joint.n.01
+|   |   |       |   |   +-- hinge_joint.n.01
+|   |   |       |   |       +-- knee.n.01
+|   |   |       |   +-- stifle.n.01
+|   |   |       |-- abdomen.n.01
+|   |   |       |-- buttocks.n.01
+|   |   |       +-- toe.n.03
+|   |   |-- body_of_water.n.01
+|   |   |   +-- stream.n.01
+|   |   |       +-- branch.n.05
+|   |   +-- unit.n.05
+|   |       +-- chain.n.02
+|   |           +-- closed_chain.n.01
+|   |-- matter.n.03
+|   |   |-- solid.n.01
+|   |   |   +-- food.n.02
+|   |   |       |-- produce.n.01
+|   |   |       |   +-- edible_fruit.n.01
+|   |   |       |       |-- berry.n.01
+|   |   |       |       +-- citrus.n.01
+|   |   |       |           +-- orange.n.01
+|   |   |       |-- meat.n.01
+|   |   |       |   |-- bird.n.02
+|   |   |       |   |-- cut.n.06
+|   |   |       |   |   |-- cut_of_beef.n.01
+|   |   |       |   |   |   |-- blade.n.05
+|   |   |       |   |   |   +-- plate.n.07
+|   |   |       |   |   |-- leg.n.05
+|   |   |       |   |   +-- neck.n.03
+|   |   |       |   |-- variety_meat.n.01
+|   |   |       |   |   |-- brain.n.05
+|   |   |       |   |   |-- heart.n.08
+|   |   |       |   |   +-- tongue.n.06
+|   |   |       |   +-- sausage.n.01
+|   |   |       |       +-- frank.n.02
+|   |   |       |-- baked_goods.n.01
+|   |   |       |   +-- cake.n.03
+|   |   |       |-- cheese.n.01
+|   |   |       +-- fish.n.02
+|   |   +-- substance.n.07
+|   |       |-- food.n.01
+|   |       |   |-- fare.n.04
+|   |       |   |   +-- board.n.04
+|   |       |   |-- nutriment.n.01
+|   |       |   |   |-- dish.n.02
+|   |       |   |   |   +-- patty.n.01
+|   |       |   |   +-- course.n.07
+|   |       |   |       |-- entree.n.01
+|   |       |   |       |   +-- plate.n.08
+|   |       |   |       +-- dessert.n.01
+|   |       |   |           +-- whip.n.03
+|   |       |   +-- foodstuff.n.02
+|   |       |       |-- egg.n.02
+|   |       |       |-- starches.n.01
+|   |       |       |   +-- potato.n.01
+|   |       |       +-- ingredient.n.03
+|   |       |           +-- flavorer.n.01
+|   |       |               +-- condiment.n.01
+|   |       |                   +-- spread.n.05
+|   |       |                       +-- margarine.n.01
+|   |       |                           +-- stick.n.04
+|   |       +-- agent.n.03
+|   |           +-- drug.n.01
+|   |               |-- stimulant.n.02
+|   |               |   +-- kat.n.01
+|   |               |-- controlled_substance.n.01
+|   |               |   +-- club_drug.n.01
+|   |               |       +-- flunitrazepan.n.01
+|   |               |           +-- r-2.n.01
+|   |               |-- drug_of_abuse.n.01
+|   |               |   +-- alcohol.n.01
+|   |               |       +-- mixed_drink.n.01
+|   |               |           +-- punch.n.02
+|   |               |               +-- cup.n.06
+|   |               +-- narcotic.n.01
+|   |                   +-- soft_drug.n.01
+|   |                       +-- cannabis.n.02
+|   |                           +-- pot.n.09
+|   |-- process.n.06
+|   |   |-- phenomenon.n.01
+|   |   |   |-- consequence.n.01
+|   |   |   |   +-- outgrowth.n.01
+|   |   |   +-- natural_phenomenon.n.01
+|   |   |       +-- physical_phenomenon.n.01
+|   |   |           |-- cloud.n.01
+|   |   |           |-- atmospheric_phenomenon.n.01
+|   |   |           |   |-- cloud.n.02
+|   |   |           |   +-- air_pocket.n.01
+|   |   |           |-- pressure.n.01
+|   |   |           |   +-- head.n.06
+|   |   |           +-- energy.n.01
+|   |   |               +-- radiation.n.01
+|   |   |                   +-- electromagnetic_radiation.n.01
+|   |   |                       |-- line.n.06
+|   |   |                       +-- actinic_radiation.n.01
+|   |   |                           +-- light.n.01
+|   |   |                               |-- moonlight.n.01
+|   |   |                               +-- sunlight.n.01
+|   |   +-- organic_process.n.01
+|   |       +-- bodily_process.n.01
+|   |           +-- sexual_activity.n.01
+|   |               |-- perversion.n.02
+|   |               |   +-- oral_sex.n.01
+|   |               +-- sexual_intercourse.n.01
+|   |                   +-- fuck.n.01
+|   +-- causal_agent.n.01
+|       +-- engine.n.02
++-- abstraction.n.06
+    |-- psychological_feature.n.01
+    |   |-- cognition.n.01
+    |   |   |-- attitude.n.01
+    |   |   |   +-- position.n.12
+    |   |   |       +-- point_of_view.n.01
+    |   |   |           +-- slant.n.01
+    |   |   |-- ability.n.02
+    |   |   |   |-- intelligence.n.01
+    |   |   |   |   +-- brain.n.02
+    |   |   |   |-- faculty.n.01
+    |   |   |   |   +-- sense.n.03
+    |   |   |   |       +-- modality.n.03
+    |   |   |   |           |-- hearing.n.06
+    |   |   |   |           |   +-- ear.n.02
+    |   |   |   |           +-- smell.n.04
+    |   |   |   |               +-- nose.n.06
+    |   |   |   |-- know-how.n.01
+    |   |   |   |   |-- wisdom.n.03
+    |   |   |   |   |   +-- sagacity.n.01
+    |   |   |   |   |       +-- eye.n.02
+    |   |   |   |   +-- method.n.01
+    |   |   |   |       +-- system.n.04
+    |   |   |   |           +-- frame_of_reference.n.02
+    |   |   |   |-- hand.n.04
+    |   |   |   +-- skill.n.02
+    |   |   |       +-- nose.n.07
+    |   |   |-- mind.n.01
+    |   |   |-- process.n.02
+    |   |   |   |-- basic_cognitive_process.n.01
+    |   |   |   |   |-- representational_process.n.01
+    |   |   |   |   |   |-- symbol.n.02
+    |   |   |   |   |   |   +-- emblem.n.02
+    |   |   |   |   |   |       +-- badge.n.01
+    |   |   |   |   |   |           +-- button.n.04
+    |   |   |   |   |   +-- typification.n.01
+    |   |   |   |   |       +-- picture.n.09
+    |   |   |   |   |-- attention.n.01
+    |   |   |   |   |   |-- ear.n.04
+    |   |   |   |   |   +-- eye.n.03
+    |   |   |   |   |-- discrimination.n.02
+    |   |   |   |   |   +-- differentiation.n.01
+    |   |   |   |   |       +-- line.n.29
+    |   |   |   |   +-- learning.n.01
+    |   |   |   |       +-- education.n.03
+    |   |   |   |           +-- school.n.03
+    |   |   |   +-- higher_cognitive_process.n.01
+    |   |   |       +-- thinking.n.01
+    |   |   |           |-- reasoning.n.01
+    |   |   |           |   +-- argumentation.n.02
+    |   |   |           |       +-- policy.n.02
+    |   |   |           |           +-- economic_policy.n.01
+    |   |   |           |               +-- control.n.11
+    |   |   |           |                   |-- floor.n.03
+    |   |   |           |                   +-- ceiling.n.03
+    |   |   |           |-- explanation.n.02
+    |   |   |           |   +-- key.n.02
+    |   |   |           +-- train_of_thought.n.01
+    |   |   |-- content.n.05
+    |   |   |   |-- idea.n.01
+    |   |   |   |   |-- concept.n.01
+    |   |   |   |   |   |-- abstraction.n.01
+    |   |   |   |   |   |   +-- right.n.01
+    |   |   |   |   |   |       |-- entree.n.02
+    |   |   |   |   |   |       |   +-- door.n.03
+    |   |   |   |   |   |       +-- floor.n.08
+    |   |   |   |   |   |-- part.n.09
+    |   |   |   |   |   |   |-- inning.n.01
+    |   |   |   |   |   |   +-- frame.n.11
+    |   |   |   |   |   +-- property.n.04
+    |   |   |   |   |       +-- feature.n.01
+    |   |   |   |   |           +-- aspect.n.01
+    |   |   |   |   |               +-- side.n.06
+    |   |   |   |   |                   +-- hand.n.07
+    |   |   |   |   |-- impression.n.01
+    |   |   |   |   |   +-- intuition.n.02
+    |   |   |   |   |       +-- heart.n.01
+    |   |   |   |   +-- inspiration.n.01
+    |   |   |   |       +-- source.n.03
+    |   |   |   |-- kernel.n.03
+    |   |   |   +-- representation.n.01
+    |   |   |       +-- image.n.01
+    |   |   |           +-- mental_picture.n.01
+    |   |   |-- cognitive_factor.n.01
+    |   |   |   +-- determinant.n.01
+    |   |   |       +-- influence.n.03
+    |   |   |           +-- temptation.n.01
+    |   |   |               +-- bait.n.01
+    |   |   |-- equivalent.n.01
+    |   |   |   +-- counterpart.n.01
+    |   |   |       +-- match.n.09
+    |   |   +-- structure.n.03
+    |   |       +-- arrangement.n.03
+    |   |           +-- design.n.02
+    |   |               +-- configuration.n.01
+    |   |                   +-- topology.n.04
+    |   |                       +-- star_topology.n.01
+    |   +-- event.n.01
+    |       |-- act.n.02
+    |       |   |-- activity.n.01
+    |       |   |   |-- work.n.01
+    |       |   |   |   |-- undertaking.n.01
+    |       |   |   |   |   +-- baby.n.07
+    |       |   |   |   |-- wash.n.02
+    |       |   |   |   |   +-- washup.n.01
+    |       |   |   |   |       +-- bath.n.02
+    |       |   |   |   |-- care.n.01
+    |       |   |   |   |   |-- dental_care.n.01
+    |       |   |   |   |   |   +-- brush.n.07
+    |       |   |   |   |   +-- hair_care.n.01
+    |       |   |   |   |       |-- brush.n.08
+    |       |   |   |   |       +-- comb.n.05
+    |       |   |   |   |-- duty.n.02
+    |       |   |   |   |   +-- function.n.03
+    |       |   |   |   |       +-- hat.n.02
+    |       |   |   |   |-- labor.n.02
+    |       |   |   |   |   +-- effort.n.02
+    |       |   |   |   |       +-- exercise.n.01
+    |       |   |   |   |           +-- gymnastic_exercise.n.01
+    |       |   |   |   |               +-- scissors.n.03
+    |       |   |   |   +-- investigation.n.02
+    |       |   |   |       +-- police_work.n.01
+    |       |   |   |           +-- surveillance.n.01
+    |       |   |   |               +-- watch.n.03
+    |       |   |   |-- cup_of_tea.n.01
+    |       |   |   |-- diversion.n.01
+    |       |   |   |   |-- sport.n.01
+    |       |   |   |   |   +-- athletic_game.n.01
+    |       |   |   |   |       +-- outdoor_game.n.01
+    |       |   |   |   |           +-- field_game.n.01
+    |       |   |   |   |               +-- ball_game.n.01
+    |       |   |   |   |                   +-- baseball.n.01
+    |       |   |   |   |                       +-- ball.n.11
+    |       |   |   |   +-- play.n.08
+    |       |   |   |       +-- house.n.07
+    |       |   |   |-- practice.n.01
+    |       |   |   |   +-- mistreatment.n.01
+    |       |   |   |       +-- maltreatment.n.01
+    |       |   |   |           +-- persecution.n.01
+    |       |   |   |               +-- torture.n.05
+    |       |   |   |                   +-- boot.n.06
+    |       |   |   |-- game.n.01
+    |       |   |   |   +-- card_game.n.01
+    |       |   |   |       +-- bridge.n.05
+    |       |   |   |-- representation.n.10
+    |       |   |   |   +-- pictorial_representation.n.01
+    |       |   |   |       +-- imaging.n.02
+    |       |   |   |           +-- x-raying.n.01
+    |       |   |   |               +-- computerized_tomography.n.01
+    |       |   |   |-- ceremony.n.03
+    |       |   |   |   +-- religious_ceremony.n.01
+    |       |   |   |       |-- service.n.03
+    |       |   |   |       |   +-- church_service.n.01
+    |       |   |   |       +-- rite.n.01
+    |       |   |   |           |-- office.n.06
+    |       |   |   |           +-- vigil.n.02
+    |       |   |   |-- control.n.05
+    |       |   |   |   |-- restraint.n.01
+    |       |   |   |   |   +-- collar.n.08
+    |       |   |   |   +-- grasping.n.02
+    |       |   |   |       +-- clasp.n.02
+    |       |   |   |           +-- wrestling_hold.n.01
+    |       |   |   |               |-- lock.n.06
+    |       |   |   |               +-- scissors.n.02
+    |       |   |   |-- aid.n.02
+    |       |   |   |   +-- hand.n.14
+    |       |   |   |-- attempt.n.01
+    |       |   |   |   +-- shot.n.15
+    |       |   |   |       +-- basketball_shot.n.01
+    |       |   |   |           +-- hook_shot.n.01
+    |       |   |   |-- occupation.n.01
+    |       |   |   |   +-- position.n.06
+    |       |   |   +-- provision.n.02
+    |       |   |       +-- stocking.n.02
+    |       |   |-- propulsion.n.02
+    |       |   |   |-- throw.n.01
+    |       |   |   |   +-- pitch.n.02
+    |       |   |   |       +-- ball.n.12
+    |       |   |   |-- shooting.n.01
+    |       |   |   |   +-- discharge.n.09
+    |       |   |   |       +-- gun.n.07
+    |       |   |   +-- jump.n.06
+    |       |   |       +-- leap.n.01
+    |       |   |-- action.n.01
+    |       |   |   |-- accomplishment.n.01
+    |       |   |   |   +-- attainment.n.01
+    |       |   |   |       +-- success.n.02
+    |       |   |   |           +-- score.n.10
+    |       |   |   |               +-- basket.n.04
+    |       |   |   |-- change.n.03
+    |       |   |   |   |-- motion.n.03
+    |       |   |   |   |   |-- stroke.n.12
+    |       |   |   |   |   |   +-- blow.n.01
+    |       |   |   |   |   |       |-- kick.n.01
+    |       |   |   |   |   |       |-- box.n.10
+    |       |   |   |   |   |       |-- hammer.n.08
+    |       |   |   |   |   |       |-- punch.n.01
+    |       |   |   |   |   |       |   +-- hook.n.07
+    |       |   |   |   |   |       +-- whip.n.05
+    |       |   |   |   |   +-- rotation.n.01
+    |       |   |   |   |       +-- feather.n.02
+    |       |   |   |   |-- motion.n.06
+    |       |   |   |   |   |-- locomotion.n.02
+    |       |   |   |   |   |   +-- lap.n.05
+    |       |   |   |   |   |-- descent.n.03
+    |       |   |   |   |   |   +-- drop.n.09
+    |       |   |   |   |   |-- travel.n.01
+    |       |   |   |   |   |   |-- walk.n.04
+    |       |   |   |   |   |   |   +-- foot.n.07
+    |       |   |   |   |   |   |-- stage.n.06
+    |       |   |   |   |   |   +-- water_travel.n.01
+    |       |   |   |   |   |       +-- ocean_trip.n.01
+    |       |   |   |   |   |           +-- cruise.n.01
+    |       |   |   |   |   +-- maneuver.n.03
+    |       |   |   |   |       +-- stroke.n.01
+    |       |   |   |   |           +-- golf_stroke.n.01
+    |       |   |   |   |               +-- hook.n.06
+    |       |   |   |   |-- change_of_integrity.n.01
+    |       |   |   |   |   |-- separation.n.09
+    |       |   |   |   |   |   |-- removal.n.01
+    |       |   |   |   |   |   |   +-- emptying.n.01
+    |       |   |   |   |   |   |       +-- drain.n.01
+    |       |   |   |   |   |   +-- division.n.03
+    |       |   |   |   |   |       +-- branching.n.01
+    |       |   |   |   |   +-- combination.n.07
+    |       |   |   |   |       +-- union.n.11
+    |       |   |   |   |           +-- umbrella.n.03
+    |       |   |   |   |-- change_of_magnitude.n.01
+    |       |   |   |   |   +-- decrease.n.04
+    |       |   |   |   |       +-- depletion.n.01
+    |       |   |   |   |           +-- drain.n.04
+    |       |   |   |   +-- change_of_direction.n.01
+    |       |   |   |       +-- change_of_course.n.01
+    |       |   |   |           +-- turn.n.02
+    |       |   |   |               +-- stem_turn.n.01
+    |       |   |   +-- interaction.n.01
+    |       |   |       +-- contact.n.01
+    |       |   |           +-- brush.n.09
+    |       |   |-- acquiring.n.01
+    |       |   |   |-- capture.n.01
+    |       |   |   |   +-- apprehension.n.04
+    |       |   |   +-- reception.n.04
+    |       |   |-- touch.n.05
+    |       |   |   +-- hit.n.02
+    |       |   |       +-- fly.n.04
+    |       |   |-- communication.n.01
+    |       |   |   |-- channel.n.05
+    |       |   |   +-- persuasion.n.01
+    |       |   |       +-- line.n.27
+    |       |   |-- speech_act.n.01
+    |       |   |   +-- reply.n.02
+    |       |   |       +-- rejoinder.n.01
+    |       |   |           +-- sass.n.01
+    |       |   |-- distribution.n.03
+    |       |   |   +-- allotment.n.02
+    |       |   |       +-- parcel.n.02
+    |       |   +-- implementation.n.02
+    |       |       +-- means.n.01
+    |       |           +-- tooth.n.04
+    |       |-- social_event.n.01
+    |       |   |-- affair.n.03
+    |       |   |   +-- party.n.04
+    |       |   |       +-- dance.n.04
+    |       |   |           +-- ball.n.09
+    |       |   |-- contest.n.01
+    |       |   |   +-- match.n.02
+    |       |   +-- show.n.03
+    |       |       +-- movie.n.01
+    |       |-- happening.n.01
+    |       |   |-- sound.n.04
+    |       |   |   |-- bell.n.03
+    |       |   |   |-- ring.n.06
+    |       |   |   +-- whistle.n.01
+    |       |   |-- contact.n.04
+    |       |   |   +-- touch.n.01
+    |       |   |       +-- brush.n.03
+    |       |   |-- movement.n.03
+    |       |   |   +-- change_of_location.n.01
+    |       |   |       |-- gravitation.n.02
+    |       |   |       |   +-- drop.n.06
+    |       |   |       +-- progress.n.03
+    |       |   |           +-- headway.n.02
+    |       |   |-- juncture.n.01
+    |       |   |   +-- pass.n.09
+    |       |   |-- success.n.01
+    |       |   |   +-- victory.n.01
+    |       |   |       +-- fall.n.10
+    |       |   +-- ending.n.04
+    |       |       +-- result.n.03
+    |       |           +-- consequence.n.02
+    |       |               +-- train.n.04
+    |       +-- group_action.n.01
+    |           |-- conflict.n.01
+    |           |   +-- fight.n.02
+    |           |       +-- brush.n.06
+    |           |-- cooperation.n.01
+    |           |   +-- conformity.n.02
+    |           |       +-- line.n.16
+    |           |-- social_control.n.01
+    |           |   +-- punishment.n.01
+    |           |       +-- stick.n.09
+    |           |-- procession.n.02
+    |           |   +-- caravan.n.01
+    |           +-- military_action.n.01
+    |               +-- defense.n.01
+    |                   +-- umbrella.n.02
+    |-- attribute.n.02
+    |   |-- shape.n.02
+    |   |   |-- line.n.04
+    |   |   |   |-- curve.n.01
+    |   |   |   |   |-- arch.n.01
+    |   |   |   |   |-- closed_curve.n.01
+    |   |   |   |   |   +-- simple_closed_curve.n.01
+    |   |   |   |   |       +-- loop.n.02
+    |   |   |   |   |           +-- belt.n.01
+    |   |   |   |   |               +-- band.n.10
+    |   |   |   |   |-- bell.n.05
+    |   |   |   |   +-- hook.n.02
+    |   |   |   +-- boundary.n.02
+    |   |   |       +-- margin.n.01
+    |   |   |           +-- lip.n.05
+    |   |   |-- round_shape.n.01
+    |   |   |   |-- sphere.n.05
+    |   |   |   |   |-- ball.n.03
+    |   |   |   |   |   +-- globule.n.01
+    |   |   |   |   |       +-- bubble.n.01
+    |   |   |   |   |           +-- foam.n.01
+    |   |   |   |   |               +-- head.n.18
+    |   |   |   |   +-- drop.n.01
+    |   |   |   |-- bulb.n.04
+    |   |   |   +-- cylinder.n.02
+    |   |   |       |-- pipe.n.03
+    |   |   |       +-- shank.n.03
+    |   |   |-- figure.n.06
+    |   |   |   |-- plane_figure.n.01
+    |   |   |   |   |-- polygon.n.01
+    |   |   |   |   |   |-- quadrilateral.n.01
+    |   |   |   |   |   |   +-- parallelogram.n.01
+    |   |   |   |   |   |       +-- rectangle.n.01
+    |   |   |   |   |   |           +-- box.n.05
+    |   |   |   |   |   +-- isogon.n.01
+    |   |   |   |   |       +-- regular_polygon.n.01
+    |   |   |   |   |           +-- square.n.01
+    |   |   |   |   |-- conic_section.n.01
+    |   |   |   |   |   +-- ellipse.n.01
+    |   |   |   |   |       +-- circle.n.01
+    |   |   |   |   |-- heart.n.07
+    |   |   |   |   |-- star.n.05
+    |   |   |   |   +-- tree.n.02
+    |   |   |   |-- subfigure.n.01
+    |   |   |   |   +-- branch.n.03
+    |   |   |   |       +-- fork.n.03
+    |   |   |   +-- pencil.n.03
+    |   |   |-- circle.n.03
+    |   |   |-- solid.n.03
+    |   |   |   |-- concave_shape.n.01
+    |   |   |   |   |-- cup.n.03
+    |   |   |   |   |-- depression.n.08
+    |   |   |   |   |   +-- wrinkle.n.01
+    |   |   |   |   +-- scoop.n.02
+    |   |   |   |-- convex_shape.n.01
+    |   |   |   |   |-- point.n.08
+    |   |   |   |   |   +-- head.n.10
+    |   |   |   |   +-- projection.n.05
+    |   |   |   |       |-- tongue.n.03
+    |   |   |   |       +-- tail.n.03
+    |   |   |   |-- toroid.n.01
+    |   |   |   |   +-- ring.n.02
+    |   |   |   +-- cast.n.03
+    |   |   |-- distorted_shape.n.01
+    |   |   |   +-- knot.n.04
+    |   |   |-- plane.n.02
+    |   |   +-- square.n.04
+    |   |-- property.n.02
+    |   |   |-- visual_property.n.01
+    |   |   |   +-- color.n.01
+    |   |   |       |-- achromatic_color.n.01
+    |   |   |       |   +-- white.n.02
+    |   |   |       |       +-- bone.n.03
+    |   |   |       +-- chromatic_color.n.01
+    |   |   |           +-- orange.n.02
+    |   |   |-- bodily_property.n.01
+    |   |   |   +-- carriage.n.03
+    |   |   |-- magnitude.n.01
+    |   |   |   |-- amount.n.02
+    |   |   |   |   +-- decrease.n.03
+    |   |   |   |       +-- drop.n.03
+    |   |   |   +-- size.n.01
+    |   |   |       +-- distance.n.03
+    |   |   |           +-- leg.n.08
+    |   |   |-- sound_property.n.01
+    |   |   |   |-- pitch.n.01
+    |   |   |   |   +-- key.n.03
+    |   |   |   +-- sound.n.01
+    |   |   |       +-- ring.n.01
+    |   |   |-- tactile_property.n.01
+    |   |   |   +-- texture.n.01
+    |   |   |       +-- roughness.n.01
+    |   |   |           +-- slub.n.01
+    |   |   |-- strength.n.01
+    |   |   |   +-- brawn.n.01
+    |   |   +-- physical_property.n.01
+    |   |       |-- elasticity.n.01
+    |   |       |   +-- give.n.01
+    |   |       +-- malleability.n.01
+    |   |           +-- flexibility.n.01
+    |   |               +-- whip.n.04
+    |   |-- state.n.02
+    |   |   |-- feeling.n.01
+    |   |   |   |-- emotion.n.01
+    |   |   |   |   +-- joy.n.01
+    |   |   |   |       +-- exhilaration.n.01
+    |   |   |   |           +-- bang.n.04
+    |   |   |   |-- affection.n.01
+    |   |   |   |-- liking.n.01
+    |   |   |   |   +-- inclination.n.05
+    |   |   |   |       +-- stomach.n.03
+    |   |   |   +-- desire.n.01
+    |   |   |       +-- craving.n.01
+    |   |   |           +-- appetite.n.01
+    |   |   |               +-- stomach.n.04
+    |   |   |-- condition.n.01
+    |   |   |   |-- difficulty.n.03
+    |   |   |   |   |-- predicament.n.01
+    |   |   |   |   |   +-- corner.n.08
+    |   |   |   |   +-- wall.n.04
+    |   |   |   +-- atmosphere.n.01
+    |   |   |       +-- gloom.n.03
+    |   |   |           +-- cloud.n.04
+    |   |   |-- nonbeing.n.01
+    |   |   |   +-- nonexistence.n.01
+    |   |   |       +-- unreality.n.02
+    |   |   |           +-- cloud.n.03
+    |   |   |-- hostility.n.02
+    |   |   |   +-- suspicion.n.03
+    |   |   |       +-- cloud.n.05
+    |   |   |-- status.n.01
+    |   |   |   |-- face.n.11
+    |   |   |   +-- social_station.n.01
+    |   |   |       +-- place.n.10
+    |   |   |-- office.n.04
+    |   |   |-- situation.n.01
+    |   |   |   |-- picture.n.04
+    |   |   |   |-- prison.n.02
+    |   |   |   +-- environment.n.01
+    |   |   |       +-- street.n.03
+    |   |   |-- degree.n.02
+    |   |   |   +-- plane.n.03
+    |   |   +-- being.n.01
+    |   |       |-- animation.n.01
+    |   |       |   +-- skin.n.04
+    |   |       +-- possibility.n.02
+    |   |           +-- opportunity.n.01
+    |   |               +-- street.n.04
+    |   |-- quality.n.01
+    |   |   |-- appearance.n.01
+    |   |   |   |-- countenance.n.01
+    |   |   |   |   +-- expression.n.01
+    |   |   |   +-- face.n.03
+    |   |   |-- power.n.01
+    |   |   |   |-- control.n.01
+    |   |   |   |   +-- authority.n.01
+    |   |   |   |       +-- muscle.n.04
+    |   |   |   +-- influence.n.01
+    |   |   |       +-- force.n.01
+    |   |   |           +-- wheel.n.03
+    |   |   +-- suitability.n.01
+    |   |       +-- appropriateness.n.02
+    |   |           +-- ticket.n.05
+    |   +-- trait.n.01
+    |       |-- drive.n.05
+    |       |   +-- aggressiveness.n.01
+    |       |       +-- boldness.n.02
+    |       |-- character.n.03
+    |       |   +-- spirit.n.03
+    |       |       +-- courage.n.01
+    |       |           +-- heart.n.03
+    |       +-- nature.n.04
+    |           +-- disposition.n.01
+    |               +-- heart.n.06
+    |-- group.n.01
+    |   |-- social_group.n.01
+    |   |   |-- organization.n.01
+    |   |   |   |-- unit.n.03
+    |   |   |   |   |-- administrative_unit.n.01
+    |   |   |   |   |   |-- division.n.04
+    |   |   |   |   |   |   +-- branch.n.01
+    |   |   |   |   |   |-- agency.n.01
+    |   |   |   |   |   |   +-- united_states_army.n.01
+    |   |   |   |   |   +-- committee.n.01
+    |   |   |   |   |       +-- board.n.01
+    |   |   |   |   |-- military_unit.n.01
+    |   |   |   |   |   |-- army_unit.n.01
+    |   |   |   |   |   |   +-- infantry.n.01
+    |   |   |   |   |   +-- air_unit.n.01
+    |   |   |   |   |       +-- wing.n.04
+    |   |   |   |   +-- family.n.01
+    |   |   |   |-- force.n.04
+    |   |   |   |   |-- military_service.n.01
+    |   |   |   |   |   +-- army.n.01
+    |   |   |   |   |-- military_personnel.n.01
+    |   |   |   |   |   +-- cavalry.n.01
+    |   |   |   |   +-- staff.n.01
+    |   |   |   |       +-- office.n.05
+    |   |   |   |-- musical_organization.n.01
+    |   |   |   |   |-- band.n.02
+    |   |   |   |   +-- dance_band.n.01
+    |   |   |   |-- enterprise.n.02
+    |   |   |   |   +-- business.n.01
+    |   |   |   |       |-- chain.n.04
+    |   |   |   |       |-- firm.n.01
+    |   |   |   |       +-- carrier.n.05
+    |   |   |   |           +-- line.n.23
+    |   |   |   |               +-- railway.n.01
+    |   |   |   |                   +-- rail.n.02
+    |   |   |   |-- institution.n.01
+    |   |   |   |   |-- religion.n.02
+    |   |   |   |   |   +-- church.n.01
+    |   |   |   |   |-- medical_institution.n.01
+    |   |   |   |   |   +-- hospital.n.02
+    |   |   |   |   +-- educational_institution.n.01
+    |   |   |   |       |-- school.n.01
+    |   |   |   |       +-- school.n.06
+    |   |   |   +-- association.n.01
+    |   |   |       +-- gang.n.01
+    |   |   |-- gathering.n.01
+    |   |   |   |-- crowd.n.01
+    |   |   |   |   +-- army.n.02
+    |   |   |   |-- social_gathering.n.01
+    |   |   |   |   |-- party.n.02
+    |   |   |   |   |   +-- dance.n.02
+    |   |   |   |   |       +-- ball.n.04
+    |   |   |   |   +-- bee.n.02
+    |   |   |   |-- floor.n.07
+    |   |   |   |-- community.n.01
+    |   |   |   |   |-- house.n.03
+    |   |   |   |   +-- neighborhood.n.02
+    |   |   |   |       +-- street.n.05
+    |   |   |   |-- audience.n.01
+    |   |   |   |   +-- house.n.04
+    |   |   |   |-- assembly.n.04
+    |   |   |   |   +-- legislature.n.01
+    |   |   |   |       +-- house.n.05
+    |   |   |   |-- table.n.05
+    |   |   |   +-- municipality.n.02
+    |   |   |       +-- town.n.02
+    |   |   |-- set.n.05
+    |   |   |-- body.n.02
+    |   |   |   |-- church.n.04
+    |   |   |   |-- administration.n.02
+    |   |   |   |   +-- management.n.02
+    |   |   |   |       +-- house.n.09
+    |   |   |   +-- school.n.04
+    |   |   |-- kin.n.02
+    |   |   |   |-- genealogy.n.01
+    |   |   |   |   +-- lineage.n.01
+    |   |   |   |       +-- family.n.04
+    |   |   |   |           +-- house.n.06
+    |   |   |   +-- family.n.02
+    |   |   |       +-- couple.n.02
+    |   |   +-- wing.n.08
+    |   |-- collection.n.01
+    |   |   |-- agglomeration.n.01
+    |   |   |   |-- ball.n.08
+    |   |   |   +-- bunch.n.01
+    |   |   |       +-- knot.n.01
+    |   |   |-- assortment.n.01
+    |   |   |   +-- range.n.06
+    |   |   |       +-- band.n.06
+    |   |   |-- book.n.06
+    |   |   |-- book.n.07
+    |   |   |-- vegetation.n.01
+    |   |   |   |-- brush.n.01
+    |   |   |   |   +-- brake.n.04
+    |   |   |   +-- garden.n.02
+    |   |   |-- hand.n.06
+    |   |   |-- library.n.02
+    |   |   |-- library.n.04
+    |   |   |-- package.n.01
+    |   |   +-- class.n.01
+    |   |       +-- stamp.n.02
+    |   |-- arrangement.n.02
+    |   |   |-- ordering.n.01
+    |   |   |   +-- series.n.01
+    |   |   |       |-- chain.n.01
+    |   |   |       |-- course.n.02
+    |   |   |       +-- string.n.04
+    |   |   |-- formation.n.01
+    |   |   |   |-- head.n.05
+    |   |   |   |-- line.n.01
+    |   |   |   |-- line.n.03
+    |   |   |   +-- flank.n.01
+    |   |   +-- array.n.01
+    |   |       +-- table.n.01
+    |   |-- swarm.n.02
+    |   |-- people.n.01
+    |   |   +-- pocket.n.07
+    |   +-- biological_group.n.01
+    |       +-- animal_group.n.01
+    |           +-- school.n.07
+    |-- measure.n.02
+    |   |-- indefinite_quantity.n.01
+    |   |   |-- bag.n.02
+    |   |   |-- containerful.n.01
+    |   |   |   |-- bag.n.05
+    |   |   |   |-- basin.n.02
+    |   |   |   |-- basket.n.02
+    |   |   |   |-- bottle.n.02
+    |   |   |   |-- box.n.03
+    |   |   |   |-- bucket.n.02
+    |   |   |   |-- cup.n.02
+    |   |   |   |-- kettle.n.02
+    |   |   |   |-- plate.n.05
+    |   |   |   |-- pot.n.03
+    |   |   |   +-- spoon.n.02
+    |   |   |-- small_indefinite_quantity.n.01
+    |   |   |   |-- drop.n.02
+    |   |   |   |-- hair's-breadth.n.01
+    |   |   |   |-- nose.n.04
+    |   |   |   +-- helping.n.01
+    |   |   |       +-- wing.n.09
+    |   |   +-- large_indefinite_quantity.n.01
+    |   |       +-- batch.n.02
+    |   |-- definite_quantity.n.01
+    |   |   |-- unit_of_measurement.n.01
+    |   |   |   |-- volume_unit.n.01
+    |   |   |   |   |-- liquid_unit.n.01
+    |   |   |   |   |   |-- bath.n.04
+    |   |   |   |   |   +-- united_states_liquid_unit.n.01
+    |   |   |   |   |       +-- cup.n.04
+    |   |   |   |   +-- cord.n.02
+    |   |   |   |-- linear_unit.n.01
+    |   |   |   |   |-- chain.n.06
+    |   |   |   |   |-- finger.n.02
+    |   |   |   |   |-- foot.n.02
+    |   |   |   |   |-- handbreadth.n.01
+    |   |   |   |   |   +-- hand.n.09
+    |   |   |   |   |-- head.n.11
+    |   |   |   |   |-- nautical_linear_unit.n.01
+    |   |   |   |   |   +-- nautical_mile.n.02
+    |   |   |   |   |-- nail.n.03
+    |   |   |   |   |-- en.n.01
+    |   |   |   |   +-- perch.n.02
+    |   |   |   |-- metric_unit.n.01
+    |   |   |   |   +-- metric_weight_unit.n.01
+    |   |   |   |       +-- kilogram.n.01
+    |   |   |   |           +-- key.n.05
+    |   |   |   +-- area_unit.n.01
+    |   |   |       |-- agate_line.n.01
+    |   |   |       +-- perch.n.03
+    |   |   +-- number.n.02
+    |   |       |-- score.n.03
+    |   |       |   +-- match.n.05
+    |   |       |-- root.n.04
+    |   |       +-- square.n.02
+    |   |-- time_unit.n.01
+    |   |   |-- bell.n.04
+    |   |   +-- month.n.02
+    |   |       +-- lunar_month.n.01
+    |   |-- fundamental_quantity.n.01
+    |   |   +-- time_period.n.01
+    |   |       |-- school.n.05
+    |   |       |-- season.n.02
+    |   |       |   +-- spring.n.01
+    |   |       |-- calendar_day.n.01
+    |   |       |   +-- day_of_the_week.n.01
+    |   |       |       +-- rest_day.n.01
+    |   |       |           +-- sunday.n.01
+    |   |       |-- work_time.n.01
+    |   |       |   +-- hours.n.01
+    |   |       |       +-- shift.n.03
+    |   |       |           +-- watch.n.02
+    |   |       |-- watch.n.04
+    |   |       +-- window.n.05
+    |   |-- system_of_measurement.n.01
+    |   |   +-- standard.n.01
+    |   |       +-- medium_of_exchange.n.01
+    |   |           +-- tender.n.01
+    |   +-- point.n.06
+    |       +-- end.n.02
+    |           +-- fag_end.n.01
+    |-- communication.n.02
+    |   |-- auditory_communication.n.01
+    |   |   |-- utterance.n.01
+    |   |   |   +-- cry.n.01
+    |   |   |       +-- boo.n.01
+    |   |   +-- music.n.01
+    |   |       +-- tune.n.01
+    |   |-- message.n.02
+    |   |   |-- information.n.01
+    |   |   |   |-- fact.n.02
+    |   |   |   |   +-- record.n.05
+    |   |   |   |       +-- card.n.08
+    |   |   |   +-- database.n.01
+    |   |   |       +-- list.n.01
+    |   |   |           |-- bill.n.07
+    |   |   |           |   +-- menu.n.01
+    |   |   |           |-- roll.n.02
+    |   |   |           |   +-- batting_order.n.01
+    |   |   |           |-- masthead.n.01
+    |   |   |           |-- key.n.10
+    |   |   |           |-- key.n.11
+    |   |   |           +-- slate.n.04
+    |   |   |-- acknowledgment.n.03
+    |   |   |   |-- greeting.n.01
+    |   |   |   |   +-- calling_card.n.02
+    |   |   |   +-- receipt.n.02
+    |   |   |-- approval.n.04
+    |   |   |   +-- applause.n.01
+    |   |   |       +-- hand.n.12
+    |   |   |-- subject.n.01
+    |   |   |   +-- question.n.02
+    |   |   +-- statement.n.01
+    |   |       +-- description.n.01
+    |   |           +-- word_picture.n.01
+    |   |-- written_communication.n.01
+    |   |   |-- writing.n.02
+    |   |   |   |-- dramatic_composition.n.01
+    |   |   |   |   +-- script.n.01
+    |   |   |   |-- sacred_text.n.01
+    |   |   |   |   +-- bible.n.01
+    |   |   |   |-- section.n.01
+    |   |   |   |   +-- book.n.10
+    |   |   |   |-- matter.n.06
+    |   |   |   |   +-- text.n.01
+    |   |   |   |       |-- line.n.05
+    |   |   |   |       |   +-- heading.n.01
+    |   |   |   |       +-- letter.n.01
+    |   |   |   |           +-- personal_letter.n.01
+    |   |   |   |               +-- note.n.02
+    |   |   |   +-- document.n.01
+    |   |   |       |-- commercial_document.n.01
+    |   |   |       |   +-- ticket.n.01
+    |   |   |       +-- legal_document.n.01
+    |   |   |           +-- writ.n.01
+    |   |   |               +-- summons.n.03
+    |   |   |                   +-- ticket.n.03
+    |   |   |-- correspondence.n.01
+    |   |   |   +-- card.n.03
+    |   |   +-- writing.n.04
+    |   |       |-- coding_system.n.01
+    |   |       |   +-- code.n.03
+    |   |       |       +-- software.n.01
+    |   |       |           +-- program.n.07
+    |   |       |               |-- application.n.04
+    |   |       |               |   +-- frame.n.06
+    |   |       |               +-- malevolent_program.n.01
+    |   |       |                   +-- worm.n.03
+    |   |       |-- handwriting.n.01
+    |   |       +-- notation.n.01
+    |   |           +-- musical_notation.n.01
+    |   |               +-- key.n.04
+    |   |-- document.n.03
+    |   |   +-- record.n.07
+    |   |       +-- ledger.n.01
+    |   |-- indication.n.01
+    |   |   |-- evidence.n.02
+    |   |   |   +-- identification.n.02
+    |   |   |       +-- positive_identification.n.01
+    |   |   |           |-- card.n.02
+    |   |   |           |-- key.n.12
+    |   |   |           +-- number.n.08
+    |   |   |               +-- personal_identification_number.n.01
+    |   |   +-- mark.n.04
+    |   |       |-- line.n.02
+    |   |       +-- line.n.20
+    |   |           +-- finishing_line.n.01
+    |   |               +-- wire.n.03
+    |   |-- sign.n.02
+    |   |   +-- poster.n.01
+    |   |-- language.n.01
+    |   |   +-- natural_language.n.01
+    |   |       +-- sino-tibetan.n.01
+    |   |           +-- tibeto-burman.n.01
+    |   |               +-- kamarupan.n.01
+    |   |                   +-- kuki.n.01
+    |   |-- signal.n.01
+    |   |   |-- symbol.n.01
+    |   |   |   |-- award.n.02
+    |   |   |   |   +-- trophy.n.02
+    |   |   |   |       +-- cup.n.08
+    |   |   |   |-- written_symbol.n.01
+    |   |   |   |   |-- character.n.08
+    |   |   |   |   |   |-- type.n.04
+    |   |   |   |   |   |   +-- font.n.01
+    |   |   |   |   |   +-- asterisk.n.01
+    |   |   |   |   +-- mark.n.10
+    |   |   |   |       +-- point.n.20
+    |   |   |   |-- nose.n.05
+    |   |   |   |-- marker.n.02
+    |   |   |   |   |-- peg.n.02
+    |   |   |   |   +-- label.n.04
+    |   |   |   |       +-- tag.n.01
+    |   |   |   |-- stamp.n.03
+    |   |   |   +-- token.n.01
+    |   |   |       +-- postage.n.02
+    |   |   |-- visual_signal.n.01
+    |   |   |   |-- flag.n.04
+    |   |   |   +-- windsock.n.01
+    |   |   |-- alarm.n.03
+    |   |   |   +-- horn.n.03
+    |   |   +-- whistle.n.02
+    |   |-- visual_communication.n.01
+    |   |   |-- gesture.n.02
+    |   |   |   +-- facial_expression.n.01
+    |   |   |       +-- grimace.n.01
+    |   |   |-- artwork.n.01
+    |   |   |   |-- drawing.n.01
+    |   |   |   |   +-- frame.n.05
+    |   |   |   +-- illustration.n.01
+    |   |   |       +-- picture.n.05
+    |   |   +-- video.n.01
+    |   |-- expressive_style.n.01
+    |   |   |-- writing_style.n.01
+    |   |   |   +-- form.n.10
+    |   |   |       +-- versification.n.02
+    |   |   |           +-- poetic_rhythm.n.01
+    |   |   |               +-- meter.n.03
+    |   |   |                   +-- metrical_foot.n.01
+    |   |   +-- manner_of_speaking.n.01
+    |   |       +-- tongue.n.04
+    |   +-- message.n.01
+    |       +-- telegram.n.01
+    |-- relation.n.01
+    |   |-- part.n.01
+    |   |   |-- substance.n.01
+    |   |   |   |-- material.n.01
+    |   |   |   |   |-- animal_material.n.01
+    |   |   |   |   |   |-- bone.n.02
+    |   |   |   |   |   +-- horn.n.07
+    |   |   |   |   |-- paper.n.01
+    |   |   |   |   |   |-- card.n.01
+    |   |   |   |   |   |   +-- playing_card.n.01
+    |   |   |   |   |   |       |-- heart.n.10
+    |   |   |   |   |   |       +-- spade.n.01
+    |   |   |   |   |   |-- cardboard.n.01
+    |   |   |   |   |   |   +-- card.n.04
+    |   |   |   |   |   +-- sheet.n.02
+    |   |   |   |   |       |-- leaf.n.02
+    |   |   |   |   |       +-- revenue_stamp.n.01
+    |   |   |   |   |-- plant_material.n.01
+    |   |   |   |   |   |-- wood.n.01
+    |   |   |   |   |   |   +-- knot.n.03
+    |   |   |   |   |   +-- plant_product.n.01
+    |   |   |   |   |       +-- tobacco.n.01
+    |   |   |   |   |           +-- roll_of_tobacco.n.01
+    |   |   |   |   |               +-- cigarette.n.01
+    |   |   |   |   |                   +-- joint.n.06
+    |   |   |   |   |-- coloring_material.n.01
+    |   |   |   |   |   +-- pigment.n.01
+    |   |   |   |   |       +-- orange.n.04
+    |   |   |   |   |-- rind.n.01
+    |   |   |   |   |   +-- peel.n.02
+    |   |   |   |   +-- sorbent.n.01
+    |   |   |   |       +-- absorbent_material.n.01
+    |   |   |   |           +-- sponge.n.01
+    |   |   |   |-- chemical_element.n.01
+    |   |   |   |   +-- carbon.n.01
+    |   |   |   |       +-- graphite.n.01
+    |   |   |   |           +-- pencil.n.02
+    |   |   |   +-- body_substance.n.01
+    |   |   |       +-- liquid_body_substance.n.01
+    |   |   |           +-- semen.n.01
+    |   |   +-- language_unit.n.01
+    |   |       +-- word.n.01
+    |   |           |-- head.n.09
+    |   |           +-- form.n.01
+    |   |               |-- root.n.03
+    |   |               +-- etymon.n.01
+    |   |-- connection.n.01
+    |   |   +-- bridge.n.03
+    |   |-- position.n.07
+    |   |   +-- room.n.02
+    |   |       +-- seating.n.01
+    |   |           +-- circle.n.07
+    |   |-- possession.n.02
+    |   |   +-- assets.n.01
+    |   |       |-- credit.n.02
+    |   |       |   +-- credit_line.n.01
+    |   |       |-- sum.n.01
+    |   |       |   +-- gain.n.04
+    |   |       |       +-- financial_gain.n.01
+    |   |       |           +-- income.n.01
+    |   |       |               +-- net_income.n.01
+    |   |       |                   +-- accumulation.n.04
+    |   |       |                       +-- store.n.02
+    |   |       |-- funds.n.01
+    |   |       |   +-- pocket.n.03
+    |   |       +-- investment.n.02
+    |   |           +-- speculation.n.03
+    |   |               +-- gamble.n.01
+    |   |                   +-- stake.n.04
+    |   |                       +-- pot.n.06
+    |   |-- mathematical_relation.n.01
+    |   |   +-- function.n.01
+    |   +-- magnitude_relation.n.01
+    |       +-- rate.n.01
+    |           +-- frequency.n.01
+    |               +-- radio_frequency.n.01
+    |                   +-- station.n.05
+    +-- set.n.02
+        +-- solution.n.04
+WORDS:200
+PATHS:1132
+PRE-NODES:2261
+POST-NODES:2242
