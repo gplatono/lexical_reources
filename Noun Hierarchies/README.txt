@@ -10,4 +10,4 @@ selecting_synsets_script.py:
 toy_script.py:
   this was for some initial exploration, still some useful bits but generally avoid using
 
-The generated hierarchies, when using default output file name None, are outputted to the file "[file_in]_***NN_hierarchy.txt".  The first star corresponds to whether or not inexact matches were filtered out, the second star corresponds to whether any filtering of the inner nodes was done, the third star corresponds to whether suspected named entities were removed.  NN is the trimming threshold used to filter the inner nodes of the hierarchy by frequency.
+The generated hierarchies, when using default output file name None, are outputted to the file "[file_in]_hierarchy_x.txt", where x is the least integer for which the file doesn't already exist.

@@ -35,11 +35,11 @@ selection of synsets but dramatically decreases the complexity of the tree
 # CONFIG ------------------------------------------------------------------------------------------
 # I/O -------------------------------------------
 # the input file
-file_in = "gathered_nouns.txt"
+file_in = "ogden_nouns_manually_selected.txt"
 
 # the output file
 file_out = None
-use_output = True
+use_output = False
 
 # Filtering Flags -------------------------------
 # should we use only exact matches?
@@ -49,7 +49,10 @@ filter_inexact_matches = False
 filter_inner_nodes = True
 
 # should we filter suspected named entities?
-filter_named_entities = True
+filter_named_entities = False
+
+# should we filter parents with only one child?
+filter_single_parents = False
 
 # the frequency cutoff to filter the inner nodes by
 trimming_threashold = 15
@@ -81,6 +84,10 @@ def get_flags():
     else:
         out += "f"
     if filter_named_entities:
+        out += "t"
+    else:
+        out += "f"
+    if filter_single_parents:
         out += "t"
     else:
         out += "f"
@@ -248,7 +255,6 @@ prenodes = len(nodes)
 # -------------------------------------------------------------------------------------------------
 
 # Trimming ----------------------------------------------------------------------------------------
-
 # do we want to filter the suspected named entities?
 # these are the ones that are direct children of the root but are leaves
 if filter_named_entities:
@@ -273,7 +279,9 @@ if filter_named_entities:
 # do we want to filter the less frequent inner nodes?
 if filter_inner_nodes:
     # get a decent frequency list
-    freq = FD(w.lower() for w in brown.words())
+    brownWords = brown.words()
+    freq = FD(w.lower() for w in brownWords)
+    freqDub = FD(brownWords[i] + " " + brownWords[i+1] for i in range(0, len(brownWords)-1))
 
     # get the nodes using a preorder traversal
     preorder_tree_nodes = [node for node in PreOrderIter(root_node)]
@@ -283,7 +291,13 @@ if filter_inner_nodes:
 
     # now we need to eliminate the nodes that don't occur frequently enough
     for node in preorder_tree_nodes:
-        if freq[name(node)] <= trimming_threashold:
+        remove = False
+        if ' ' in name(node):
+            if freqDub[name(node)] < 5:
+
+                remove = True
+
+        if remove or freq[name(node)] <= trimming_threashold:
         # remove it from the tree
             parent = node.parent
 
@@ -292,8 +306,9 @@ if filter_inner_nodes:
                 continue
 
             # don't remove a leaf
-            if node.children == ():
-                continue
+            #if node.children == ():
+            #    continue
+            # this is probably better
 
             inner_nodes_removed += 1
 
@@ -307,6 +322,34 @@ if filter_inner_nodes:
     if print_numbers:
         print("INNERS REMOVED: " + str(inner_nodes_removed))
 
+# do we want to filter parents of only one child?
+if filter_single_parents:
+
+    single_parents_removed = 0
+
+    # get the nodes using a preorder traversal
+    preorder_tree_nodes = [node for node in PreOrderIter(root_node)]
+
+    for node in preorder_tree_nodes:
+        # if only has one child
+        if len(node.children) == 1:
+        # remove it from the tree
+            parent = node.parent
+
+            single_parents_removed += 1
+
+            # make the children's parent into this node's parent
+            for child in node.children:
+                child.parent = parent
+
+            node.parent = None
+            nodes.pop(node.name)
+
+    if print_numbers:
+        print("S.P.s REMOVED: " + str(single_parents_removed))
+
+
+
 if print_numbers:
     print("NODES POST-FILTERING: " + str(len(nodes)))
 
@@ -314,24 +357,63 @@ if print_tree_two:
     for pre, fill, node in RenderTree(root_node, style=AsciiStyle()):
         print(("%s%s" % (pre, node.name)))
 
+
+
 # done filtering ----------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------------------------
+'''
+# Analysis ----------------------------------------------------------------------------------------
+preorder_tree_nodes = [node for node in PreOrderIter(root_node)]
+dups = dict()
+counter = 0
 
+for node in preorder_tree_nodes:
+    if len(node.children) != len(set([name(n) for n in node.children])):
+
+        for i in range(0, len(node.children)-1):
+            for j in range(i+1, len(node.children)):
+                if name(node.children[i]) == name(node.children[j]):
+                    dups[name(node)] = [node.children[i].name, node.children[j].name]
+        counter += len(dups)
+for key in dups.keys():
+    print(key)
+    set = dups[key]
+    print(set[0], wn.synset(set[0]).definition())
+    print(set[1], wn.synset(set[1]).definition())
+print(counter)
+
+
+# done --------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------
+'''
 # Output ------------------------------------------------------------------------------------------
 if not use_output:
     exit()
 
 if file_out == None:
     splits = file_in.split(".")
-    file_out = splits[0] + "_" + get_flags() + "_hierarchy." + splits[1]
+    file_out = splits[0] + "_hierarchy." + splits[1]
+
+# don't want to override anything
+if os.path.exists(".\\Hierarchies\\" + file_out):
+	splits = file_out.split(".")
+	counter = 2
+	while os.path.exists(".\\Hierarchies\\" + splits[0] + "_" + str(counter) + "." + splits[1]):
+		counter += 1
+	file_out = splits[0] + "_" + str(counter) + "." + splits[1]
 
 with open(".\\Hierarchies\\" + file_out, "w") as f:
-    for pre, fill, node in RenderTree(root_node, style=AsciiStyle()):
-        f.write(("%s%s\n" % (pre, node.name)))
+    f.write("Filter Inexact Synsets: " + str(filter_inexact_matches) + "\n")
+    f.write("Filter Named Entities: " + str(filter_named_entities) + "\n")
+    f.write("Filter Inner Nodes: " + str(filter_inner_nodes) + "\n")
+    f.write("Filter Single Parents: " + str(filter_single_parents) + "\n")
     f.write("WORDS:"+str(len(words))+"\n")
     f.write("PATHS:"+str(len(paths))+"\n")
     f.write("PRE-NODES:"+str(prenodes)+"\n")
-    f.write("POST-NODES:"+str(len(nodes)))
+    f.write("POST-NODES:"+str(len(nodes))+"\n")
+    for pre, fill, node in RenderTree(root_node, style=AsciiStyle()):
+        f.write(("%s%s\n" % (pre, node.name)))
+
 
 # done --------------------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------------------------
