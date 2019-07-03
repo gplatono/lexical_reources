@@ -1,0 +1,1280 @@
+Filter Inexact Synsets: True
+Filter Infrequent Senses: True
+Filter Named Entities: True
+Filter Inner Nodes: True
+Filter Single Parents: True
+WORDS:2458
+PATHS:3216
+PRE-NODES:4591
+POST-NODES:1271
+entity.n.01
+|-- physical_entity.n.01
+|   |-- causal_agent.n.01
+|   |   |-- vital_principle.n.01
+|   |   |-- hazard.n.01
+|   |   +-- chill.n.01
+|   |-- geological_formation.n.01
+|   |   |-- natural_elevation.n.01
+|   |   |-- cave.n.01
+|   |   |-- cliff.n.01
+|   |   +-- pit.n.01
+|   |-- web.n.01
+|   |-- living_thing.n.01
+|   |   |-- organism.n.01
+|   |   |   |-- microorganism.n.01
+|   |   |   |   |-- virus.n.01
+|   |   |   |   +-- bacteria.n.01
+|   |   |   |-- peer.n.01
+|   |   |   |   |-- participant.n.01
+|   |   |   |   |-- colleague.n.01
+|   |   |   |   |-- colleague.n.02
+|   |   |   |   |-- ally.n.02
+|   |   |   |   +-- teammate.n.01
+|   |   |   |-- contestant.n.01
+|   |   |   |   |-- athlete.n.01
+|   |   |   |   |-- winner.n.01
+|   |   |   |   |-- rival.n.01
+|   |   |   |   |-- outsider.n.02
+|   |   |   |   +-- quarterback.n.01
+|   |   |   |-- creator.n.02
+|   |   |   |   |-- maker.n.01
+|   |   |   |   |-- developer.n.01
+|   |   |   |   |-- photographer.n.01
+|   |   |   |   +-- founder.n.02
+|   |   |   |-- communicator.n.01
+|   |   |   |   |-- articulator.n.01
+|   |   |   |   |-- respondent.n.02
+|   |   |   |   |-- correspondent.n.01
+|   |   |   |   |-- journalist.n.01
+|   |   |   |   |   |-- correspondent.n.02
+|   |   |   |   |   +-- columnist.n.01
+|   |   |   |   |-- contributor.n.02
+|   |   |   |   +-- spy.n.01
+|   |   |   |-- capitalist.n.02
+|   |   |   |   |-- businessperson.n.01
+|   |   |   |   |   |-- businessman.n.01
+|   |   |   |   |   |-- entrepreneur.n.01
+|   |   |   |   |   |-- supplier.n.01
+|   |   |   |   |   |-- retailer.n.01
+|   |   |   |   |   +-- seller.n.01
+|   |   |   |   |-- investor.n.01
+|   |   |   |   +-- banker.n.01
+|   |   |   |-- user.n.01
+|   |   |   |   |-- buyer.n.01
+|   |   |   |   +-- patron.n.01
+|   |   |   |-- follower.n.01
+|   |   |   |-- traveler.n.01
+|   |   |   |   |-- visitor.n.01
+|   |   |   |   |-- migrant.n.01
+|   |   |   |   |   |-- immigrant.n.01
+|   |   |   |   |   +-- settler.n.01
+|   |   |   |   |-- carrier.n.01
+|   |   |   |   |-- foreigner.n.01
+|   |   |   |   |-- runner.n.02
+|   |   |   |   |-- fare.n.03
+|   |   |   |   |-- refugee.n.01
+|   |   |   |   +-- runner.n.03
+|   |   |   |-- neighbor.n.01
+|   |   |   |-- adversary.n.01
+|   |   |   |-- person_of_color.n.01
+|   |   |   |-- ruler.n.01
+|   |   |   |-- planner.n.01
+|   |   |   |-- fiduciary.n.01
+|   |   |   |-- unwelcome_person.n.01
+|   |   |   |   |-- intruder.n.01
+|   |   |   |   +-- monster.n.04
+|   |   |   |-- thrower.n.02
+|   |   |   |-- warrior.n.01
+|   |   |   |-- collector.n.01
+|   |   |   |-- male_offspring.n.01
+|   |   |   |-- boyfriend.n.01
+|   |   |   |-- female_offspring.n.01
+|   |   |   |-- girlfriend.n.02
+|   |   |   |-- adolescent.n.01
+|   |   |   |-- peanut.n.03
+|   |   |   |-- ancestor.n.01
+|   |   |   |   |-- genitor.n.01
+|   |   |   |   +-- grandfather.n.01
+|   |   |   |-- buddy.n.01
+|   |   |   |-- presiding_officer.n.01
+|   |   |   |-- trainer.n.01
+|   |   |   |-- politician.n.02
+|   |   |   |-- spiritual_leader.n.01
+|   |   |   |-- corporate_executive.n.01
+|   |   |   |-- publisher.n.02
+|   |   |   |-- practitioner.n.01
+|   |   |   |-- skilled_worker.n.01
+|   |   |   |   |-- serviceman.n.01
+|   |   |   |   |   |-- volunteer.n.01
+|   |   |   |   |   |-- confederate_soldier.n.01
+|   |   |   |   |   +-- commissioned_officer.n.01
+|   |   |   |   |       |-- commissioned_naval_officer.n.01
+|   |   |   |   |       +-- general_officer.n.01
+|   |   |   |   |-- aviator.n.01
+|   |   |   |   |-- fisherman.n.01
+|   |   |   |   |-- technician.n.01
+|   |   |   |   |-- diplomat.n.01
+|   |   |   |   |-- prosecutor.n.01
+|   |   |   |   |-- chef.n.01
+|   |   |   |   +-- mariner.n.01
+|   |   |   |-- volunteer.n.02
+|   |   |   |-- aide.n.02
+|   |   |   |-- sick_person.n.01
+|   |   |   |-- survivor.n.01
+|   |   |   |-- casualty.n.01
+|   |   |   |-- casualty.n.02
+|   |   |   |-- analyst.n.01
+|   |   |   |-- investigator.n.02
+|   |   |   |-- psychologist.n.01
+|   |   |   |-- voter.n.01
+|   |   |   |-- mentor.n.01
+|   |   |   |-- supporter.n.01
+|   |   |   |-- litigant.n.01
+|   |   |   |   |-- plaintiff.n.01
+|   |   |   |   +-- respondent.n.01
+|   |   |   |-- terrorist.n.01
+|   |   |   |-- domestic_animal.n.01
+|   |   |   |-- pet.n.01
+|   |   |   |-- predator.n.02
+|   |   |   |-- vascular_plant.n.01
+|   |   |   |   |-- woody_plant.n.01
+|   |   |   |   |   |-- ash.n.02
+|   |   |   |   |   +-- pine.n.01
+|   |   |   |   |-- herb.n.01
+|   |   |   |   |   |-- carrot.n.02
+|   |   |   |   |   |-- banana.n.01
+|   |   |   |   |   |-- wheat.n.01
+|   |   |   |   |   |-- rape.n.01
+|   |   |   |   |   +-- peanut.n.02
+|   |   |   |   |-- weed.n.01
+|   |   |   |   |-- angiosperm.n.01
+|   |   |   |   |-- pepper.n.01
+|   |   |   |   +-- garlic.n.01
+|   |   |   |-- basidiomycete.n.01
+|   |   |   |   |-- agaric.n.02
+|   |   |   |   |   |-- mushroom.n.01
+|   |   |   |   |   +-- mushroom.n.02
+|   |   |   |   +-- mushroom.n.03
+|   |   |   |-- freshman.n.01
+|   |   |   |-- inmate.n.01
+|   |   |   |-- lawman.n.01
+|   |   |   |   |-- inspector.n.01
+|   |   |   |   +-- bull.n.05
+|   |   |   |-- performer.n.01
+|   |   |   |   |-- actress.n.01
+|   |   |   |   +-- singer.n.01
+|   |   |   |-- benefactor.n.01
+|   |   |   |   |-- provider.n.02
+|   |   |   |   |-- donor.n.01
+|   |   |   |   +-- patron.n.03
+|   |   |   |-- taxpayer.n.01
+|   |   |   |-- beast.n.02
+|   |   |   |-- recipient.n.01
+|   |   |   |-- ass.n.02
+|   |   |   |-- peasant.n.01
+|   |   |   |-- wolf.n.04
+|   |   |   |-- blade.n.02
+|   |   |   |-- grandchild.n.01
+|   |   |   |-- male_sibling.n.01
+|   |   |   |-- newlywed.n.01
+|   |   |   |-- female_sibling.n.01
+|   |   |   |-- twin.n.01
+|   |   |   |-- legislator.n.01
+|   |   |   |-- counselor.n.02
+|   |   |   |-- celebrity.n.01
+|   |   |   |-- academician.n.03
+|   |   |   |-- surgeon.n.01
+|   |   |   |-- hostage.n.01
+|   |   |   |-- juror.n.01
+|   |   |   |-- counselor.n.01
+|   |   |   |-- economist.n.01
+|   |   |   |-- astronomer.n.01
+|   |   |   |-- coordinator.n.01
+|   |   |   |-- spokesman.n.01
+|   |   |   |-- contractor.n.01
+|   |   |   |-- vertebrate.n.01
+|   |   |   |   |-- aquatic_vertebrate.n.01
+|   |   |   |   |   |-- teleost_fish.n.01
+|   |   |   |   |   |   |-- salmon.n.01
+|   |   |   |   |   |   +-- pompano.n.02
+|   |   |   |   |   +-- shark.n.01
+|   |   |   |   |-- placental.n.01
+|   |   |   |   |   |-- ungulate.n.01
+|   |   |   |   |   |   |-- ruminant.n.01
+|   |   |   |   |   |   |   |-- bovid.n.01
+|   |   |   |   |   |   |   |   |-- goat.n.01
+|   |   |   |   |   |   |   |   +-- bovine.n.01
+|   |   |   |   |   |   |   +-- deer.n.01
+|   |   |   |   |   |   +-- equine.n.01
+|   |   |   |   |   |-- carnivore.n.01
+|   |   |   |   |   |   |-- big_cat.n.01
+|   |   |   |   |   |   +-- wolf.n.01
+|   |   |   |   |   |-- rodent.n.01
+|   |   |   |   |   |   |-- mouse.n.01
+|   |   |   |   |   |   +-- rat.n.01
+|   |   |   |   |   |-- whale.n.02
+|   |   |   |   |   |-- elephant.n.01
+|   |   |   |   |   |-- rabbit.n.01
+|   |   |   |   |   +-- monkey.n.01
+|   |   |   |   |-- monitor.n.07
+|   |   |   |   |-- turkey.n.01
+|   |   |   |   +-- duck.n.01
+|   |   |   +-- arthropod.n.01
+|   |   |       |-- insect.n.01
+|   |   |       |   |-- dipterous_insect.n.01
+|   |   |       |   |-- bug.n.01
+|   |   |       |   |-- bee.n.01
+|   |   |       |   +-- butterfly.n.01
+|   |   |       +-- shrimp.n.03
+|   |   +-- egg.n.01
+|   |-- artifact.n.01
+|   |   |-- instrumentality.n.03
+|   |   |   |-- conveyance.n.03
+|   |   |   |   |-- trailer.n.03
+|   |   |   |   |-- wheeled_vehicle.n.01
+|   |   |   |   |   |-- self-propelled_vehicle.n.01
+|   |   |   |   |   |   |-- motor_vehicle.n.01
+|   |   |   |   |   |   |   |-- cab.n.03
+|   |   |   |   |   |   |   +-- pickup.n.01
+|   |   |   |   |   |   |-- carrier.n.02
+|   |   |   |   |   |   |-- tank.n.01
+|   |   |   |   |   |   +-- camper.n.02
+|   |   |   |   |   |-- trailer.n.04
+|   |   |   |   |   |-- bicycle.n.01
+|   |   |   |   |   +-- cart.n.01
+|   |   |   |   |-- rocket.n.01
+|   |   |   |   |-- heavier-than-air_craft.n.01
+|   |   |   |   |   |-- helicopter.n.01
+|   |   |   |   |   +-- airplane.n.01
+|   |   |   |   |-- shuttle.n.02
+|   |   |   |   |-- fighter.n.02
+|   |   |   |   |-- launch.n.01
+|   |   |   |   +-- balloon.n.01
+|   |   |   |-- furnishing.n.02
+|   |   |   |   |-- curtain.n.01
+|   |   |   |   |-- sofa.n.01
+|   |   |   |   |-- wheelchair.n.01
+|   |   |   |   +-- couch.n.03
+|   |   |   |-- container.n.01
+|   |   |   |   |-- receptacle.n.01
+|   |   |   |   |-- pouch.n.01
+|   |   |   |   |-- purse.n.03
+|   |   |   |   |-- sack.n.01
+|   |   |   |   |-- portfolio.n.01
+|   |   |   |   |-- kit.n.01
+|   |   |   |   |-- packet.n.03
+|   |   |   |   |-- tank.n.02
+|   |   |   |   |-- bucket.n.01
+|   |   |   |   +-- trunk.n.02
+|   |   |   |-- implement.n.01
+|   |   |   |   |-- writing_implement.n.01
+|   |   |   |   |-- lever.n.01
+|   |   |   |   |-- bolt.n.02
+|   |   |   |   |-- bolt.n.03
+|   |   |   |   |-- cooking_utensil.n.01
+|   |   |   |   |-- cue.n.04
+|   |   |   |   +-- edge_tool.n.01
+|   |   |   |-- ceramic.n.01
+|   |   |   |-- communication_system.n.01
+|   |   |   |-- source_of_illumination.n.01
+|   |   |   |-- electrical_device.n.01
+|   |   |   |-- reflector.n.01
+|   |   |   |-- airfoil.n.01
+|   |   |   |-- restraint.n.06
+|   |   |   |   |-- fastener.n.02
+|   |   |   |   |   |-- button.n.01
+|   |   |   |   |   |-- nail.n.02
+|   |   |   |   |   |-- knot.n.02
+|   |   |   |   |   |-- clip.n.03
+|   |   |   |   |   +-- hook.n.01
+|   |   |   |   +-- brake.n.01
+|   |   |   |-- optical_device.n.01
+|   |   |   |   |-- lens.n.01
+|   |   |   |   |-- viewer.n.02
+|   |   |   |   +-- laser.n.01
+|   |   |   |-- toy.n.03
+|   |   |   |-- explosive_device.n.01
+|   |   |   |-- signaling_device.n.01
+|   |   |   |-- lighter.n.02
+|   |   |   |-- musical_instrument.n.01
+|   |   |   |   |-- stringed_instrument.n.01
+|   |   |   |   +-- drum.n.01
+|   |   |   |-- noisemaker.n.01
+|   |   |   |-- filter.n.01
+|   |   |   |-- shelf.n.01
+|   |   |   |-- rack.n.05
+|   |   |   |-- rib.n.01
+|   |   |   |-- computer.n.01
+|   |   |   |-- mill.n.04
+|   |   |   |-- projectile.n.01
+|   |   |   |-- sword.n.01
+|   |   |   |-- firearm.n.01
+|   |   |   |-- mechanical_device.n.01
+|   |   |   |   |-- pump.n.01
+|   |   |   |   |-- hook.n.04
+|   |   |   |   +-- shuttle.n.03
+|   |   |   |-- regulator.n.01
+|   |   |   |-- cable.n.02
+|   |   |   |-- web.n.02
+|   |   |   |-- album.n.01
+|   |   |   |-- photographic_equipment.n.01
+|   |   |   |-- electronic_equipment.n.01
+|   |   |   |   |-- monitor.n.05
+|   |   |   |   |-- monitor.n.06
+|   |   |   |   +-- receiver.n.01
+|   |   |   |-- satellite.n.01
+|   |   |   |-- kit.n.02
+|   |   |   |-- hardware.n.01
+|   |   |   |-- makeup.n.01
+|   |   |   |-- ski.n.01
+|   |   |   |-- monitor.n.04
+|   |   |   |-- pickup.n.03
+|   |   |   |-- pointer.n.02
+|   |   |   |-- elevator.n.01
+|   |   |   |-- intrauterine_device.n.01
+|   |   |   |-- upright.n.01
+|   |   |   |-- starter.n.01
+|   |   |   |-- rocket.n.02
+|   |   |   |-- timepiece.n.01
+|   |   |   |-- telescope.n.01
+|   |   |   |-- ligament.n.02
+|   |   |   |-- broadcasting.n.02
+|   |   |   |-- journalism.n.01
+|   |   |   +-- puzzle.n.02
+|   |   |-- facility.n.01
+|   |   |   |-- airfield.n.01
+|   |   |   |-- forum.n.02
+|   |   |   +-- warehouse.n.01
+|   |   |-- decoration.n.01
+|   |   |   |-- marking.n.02
+|   |   |   |-- emblem.n.01
+|   |   |   +-- diamond.n.01
+|   |   |-- excavation.n.03
+|   |   |-- layer.n.01
+|   |   |-- commodity.n.01
+|   |   |   |-- consumer_goods.n.01
+|   |   |   |   |-- grocery.n.02
+|   |   |   |   +-- home_appliance.n.01
+|   |   |   |       |-- white_goods.n.01
+|   |   |   |       +-- oven.n.01
+|   |   |   |-- export.n.01
+|   |   |   |-- cargo.n.01
+|   |   |   +-- laundry.n.01
+|   |   |-- plaything.n.01
+|   |   |   |-- doll.n.01
+|   |   |   +-- balloon.n.02
+|   |   |-- inspiration.n.02
+|   |   |-- periodical.n.01
+|   |   |-- catalog.n.01
+|   |   |-- textbook.n.01
+|   |   |-- album.n.02
+|   |   |-- notebook.n.01
+|   |   |-- graphic_art.n.01
+|   |   |   |-- oil_painting.n.01
+|   |   |   +-- icon.n.03
+|   |   |-- map.n.01
+|   |   |-- likeness.n.02
+|   |   |-- duplicate.n.02
+|   |   |-- obstruction.n.01
+|   |   |   |-- barrier.n.01
+|   |   |   |   |-- movable_barrier.n.01
+|   |   |   |   +-- dam.n.01
+|   |   |   +-- obstacle.n.02
+|   |   |-- partition.n.01
+|   |   |-- building_complex.n.01
+|   |   |-- tower.n.01
+|   |   |-- balcony.n.02
+|   |   |-- enclosure.n.01
+|   |   |   |-- cage.n.01
+|   |   |   +-- dock.n.01
+|   |   |-- surgery.n.02
+|   |   |-- toilet.n.01
+|   |   |-- booth.n.02
+|   |   |-- place_of_business.n.01
+|   |   |   |-- supermarket.n.01
+|   |   |   +-- casino.n.01
+|   |   |-- place_of_worship.n.01
+|   |   |-- outbuilding.n.01
+|   |   |-- architecture.n.01
+|   |   |-- farm_building.n.01
+|   |   |-- ministry.n.02
+|   |   |-- resort.n.01
+|   |   |-- refuge.n.03
+|   |   |-- stairway.n.01
+|   |   |-- driveway.n.01
+|   |   |-- passageway.n.01
+|   |   |   |-- tunnel.n.01
+|   |   |   |-- aisle.n.02
+|   |   |   +-- hallway.n.01
+|   |   |-- horizontal_surface.n.01
+|   |   |-- upper_surface.n.01
+|   |   |-- exit.n.01
+|   |   |-- footwear.n.02
+|   |   |   |-- shoe.n.01
+|   |   |   +-- boot.n.01
+|   |   |-- wrapping.n.01
+|   |   |-- cloth_covering.n.01
+|   |   |   |-- bedclothes.n.01
+|   |   |   +-- sleeve.n.01
+|   |   |-- garment.n.01
+|   |   |   |-- overgarment.n.01
+|   |   |   +-- sweater.n.01
+|   |   |-- woman's_clothing.n.01
+|   |   |-- accessory.n.01
+|   |   |-- attire.n.01
+|   |   |   |-- costume.n.01
+|   |   |   +-- mask.n.01
+|   |   |-- cake.n.01
+|   |   |-- slab.n.01
+|   |   |-- plate_glass.n.01
+|   |   |-- cord.n.01
+|   |   |-- silk.n.01
+|   |   |-- globe.n.03
+|   |   |-- paving_stone.n.01
+|   |   |-- toilet.n.02
+|   |   |-- pillow.n.01
+|   |   |-- manual.n.01
+|   |   |-- toy.n.02
+|   |   |-- rack.n.01
+|   |   |-- drawer.n.01
+|   |   |-- cab.n.01
+|   |   |-- mansion.n.02
+|   |   |-- military_quarters.n.01
+|   |   |-- correctional_institution.n.01
+|   |   |-- clinic.n.03
+|   |   |-- alley.n.01
+|   |   |-- airline.n.01
+|   |   |-- tableware.n.01
+|   |   |   |-- crockery.n.01
+|   |   |   |-- flatware.n.01
+|   |   |   +-- cutlery.n.02
+|   |   |       |-- fork.n.01
+|   |   |       +-- tablespoon.n.02
+|   |   |-- slot.n.02
+|   |   |-- helmet.n.01
+|   |   |-- helmet.n.02
+|   |   |-- glove.n.02
+|   |   |-- sock.n.01
+|   |   +-- pig.n.06
+|   |-- natural_object.n.01
+|   |   |-- celestial_body.n.01
+|   |   |-- carpet.n.02
+|   |   |-- body_covering.n.01
+|   |   |   |-- feather.n.01
+|   |   |   |-- eyebrow.n.01
+|   |   |   +-- facial_hair.n.01
+|   |   +-- plant_organ.n.01
+|   |       |-- reproductive_structure.n.01
+|   |       |   |-- ovule.n.01
+|   |       |   |-- kernel.n.02
+|   |       |   |-- apple.n.01
+|   |       |   |-- peanut.n.01
+|   |       |   +-- peanut.n.04
+|   |       |-- stalk.n.02
+|   |       |   |-- bulb.n.01
+|   |       |   |-- trunk.n.01
+|   |       |   +-- limb.n.02
+|   |       |-- carrot.n.01
+|   |       +-- blade.n.01
+|   |-- geographical_area.n.01
+|   |   |-- terrain.n.01
+|   |   |-- backyard.n.01
+|   |   |-- habitat.n.01
+|   |   |-- municipality.n.01
+|   |   |-- bush.n.02
+|   |   +-- arena.n.04
+|   |-- domain.n.02
+|   |-- city_district.n.01
+|   |-- arena.n.02
+|   |-- military_position.n.01
+|   |-- landmark.n.01
+|   |-- layer.n.02
+|   |-- compartment.n.01
+|   |-- expanse.n.03
+|   |-- bulb.n.03
+|   |-- spine.n.04
+|   |-- piece_of_cloth.n.01
+|   |   |-- patch.n.03
+|   |   +-- towel.n.01
+|   |-- ingredient.n.01
+|   |-- straightaway.n.01
+|   |-- landmass.n.01
+|   |-- body_part.n.01
+|   |   |-- external_body_part.n.01
+|   |   |   |-- extremity.n.05
+|   |   |   |   |-- vertebrate_foot.n.01
+|   |   |   |   |-- toe.n.01
+|   |   |   |   +-- thumb.n.01
+|   |   |   |-- breast.n.01
+|   |   |   +-- thigh.n.01
+|   |   |-- organ.n.01
+|   |   |   |-- contractile_organ.n.01
+|   |   |   |-- chemoreceptor.n.01
+|   |   |   |-- respiratory_organ.n.01
+|   |   |   +-- breast.n.02
+|   |   |-- hip.n.01
+|   |   |-- animal_tissue.n.01
+|   |   |   |-- connective_tissue.n.01
+|   |   |   |   |-- skull.n.01
+|   |   |   |   +-- rib.n.02
+|   |   |   |-- adipose_tissue.n.01
+|   |   |   +-- nerve.n.01
+|   |   |-- neural_structure.n.01
+|   |   |-- waist.n.01
+|   |   |-- synovial_joint.n.01
+|   |   |   |-- gliding_joint.n.01
+|   |   |   |   |-- wrist.n.01
+|   |   |   |   +-- ankle.n.01
+|   |   |   +-- elbow.n.01
+|   |   |-- spine.n.05
+|   |   |-- tubular_cavity.n.01
+|   |   |-- heel.n.02
+|   |   |-- nail.n.01
+|   |   |-- rima.n.01
+|   |   +-- spine.n.03
+|   |-- slice.n.05
+|   |-- fragment.n.01
+|   |-- segment.n.02
+|   |-- molecule.n.01
+|   |-- vegetable_matter.n.01
+|   |-- nutrient.n.02
+|   |-- nutriment.n.01
+|   |   |-- dainty.n.01
+|   |   |-- vitamin.n.01
+|   |   |-- bite.n.04
+|   |   |-- salad.n.01
+|   |   |-- pizza.n.01
+|   |   |-- pasta.n.01
+|   |   |-- dessert.n.01
+|   |   +-- sandwich.n.01
+|   |-- foodstuff.n.02
+|   |   |-- egg.n.02
+|   |   |-- dairy_product.n.01
+|   |   |-- starches.n.01
+|   |   |-- juice.n.01
+|   |   |-- concoction.n.01
+|   |   |   |-- mix.n.01
+|   |   |   +-- dough.n.01
+|   |   |-- flour.n.01
+|   |   +-- flavorer.n.01
+|   |       |-- sweetening.n.01
+|   |       |-- pepper.n.03
+|   |       |-- condiment.n.01
+|   |       |-- garlic.n.02
+|   |       +-- herb.n.02
+|   |-- fare.n.04
+|   |-- fodder.n.02
+|   |-- dose.n.01
+|   |-- cheese.n.01
+|   |-- chocolate.n.02
+|   |-- baked_goods.n.01
+|   |   |-- cookie.n.01
+|   |   +-- pie.n.01
+|   |-- pasta.n.02
+|   |-- pork.n.01
+|   |-- poultry.n.02
+|   |-- steak.n.01
+|   |-- vegetable.n.01
+|   |   |-- solanaceous_vegetable.n.01
+|   |   |   |-- pepper.n.04
+|   |   |   +-- tomato.n.01
+|   |   |-- mushroom.n.05
+|   |   |-- bean.n.01
+|   |   +-- carrot.n.03
+|   |-- edible_fruit.n.01
+|   |   |-- citrus.n.01
+|   |   |-- banana.n.02
+|   |   +-- grape.n.01
+|   |-- natural_process.n.01
+|   |   |-- feedback.n.01
+|   |   |-- combustion.n.01
+|   |   +-- vaporization.n.02
+|   |-- organic_process.n.01
+|   |   |-- bodily_process.n.01
+|   |   |   |-- sexual_activity.n.01
+|   |   |   |-- bite.n.08
+|   |   |   +-- shit.n.04
+|   |   +-- evolution.n.02
+|   |-- natural_phenomenon.n.01
+|   |   |-- organic_phenomenon.n.01
+|   |   |-- physical_phenomenon.n.01
+|   |   |   |-- atmospheric_phenomenon.n.01
+|   |   |   |   |-- condensation.n.03
+|   |   |   |   |-- precipitation.n.03
+|   |   |   |   |-- breeze.n.01
+|   |   |   |   +-- hurricane.n.01
+|   |   |   |-- mechanical_phenomenon.n.01
+|   |   |   |-- aerosol.n.01
+|   |   |   |-- mushroom.n.04
+|   |   |   |-- gravity.n.01
+|   |   |   +-- actinic_radiation.n.01
+|   |   |-- geological_phenomenon.n.01
+|   |   |   |-- earthquake.n.01
+|   |   |   +-- deposit.n.01
+|   |   +-- state_of_matter.n.01
+|   |-- harvest.n.02
+|   |-- data_processing.n.01
+|   |-- blade.n.03
+|   |-- reservation.n.01
+|   |-- suburb.n.01
+|   |-- scenery.n.02
+|   |-- lab.n.01
+|   |-- zone.n.01
+|   |-- heel.n.01
+|   |-- butt.n.01
+|   |-- gut.n.02
+|   |-- ash.n.01
+|   |-- vaccine.n.01
+|   |-- brew.n.01
+|   |-- cocaine.n.01
+|   |-- diamond.n.02
+|   +-- inflation.n.01
+|-- psychological_feature.n.01
+|   |-- cognition.n.01
+|   |   |-- knowledge_domain.n.01
+|   |   |   |-- humanistic_discipline.n.01
+|   |   |   |   |-- portrayal.n.02
+|   |   |   |   |-- sculpture.n.02
+|   |   |   |   +-- rhetoric.n.04
+|   |   |   |-- military_science.n.01
+|   |   |   |-- psychology.n.01
+|   |   |   |-- social_science.n.01
+|   |   |   +-- life_science.n.01
+|   |   |       |-- biology.n.01
+|   |   |       +-- surgery.n.01
+|   |   |-- topic.n.02
+|   |   |-- reminder.n.02
+|   |   |-- inspiration.n.01
+|   |   |-- generalization.n.02
+|   |   |-- misconception.n.01
+|   |   |-- conceptualization.n.02
+|   |   |-- genre.n.01
+|   |   |-- numerical_quantity.n.01
+|   |   |-- speculation.n.02
+|   |   |-- restriction.n.01
+|   |   |-- sector.n.03
+|   |   |-- compound.n.01
+|   |   |-- syndrome.n.01
+|   |   |-- plan_of_action.n.01
+|   |   |   |-- tactic.n.01
+|   |   |   +-- football_play.n.01
+|   |   |-- exemplar.n.01
+|   |   |-- expectation.n.01
+|   |   |-- supernaturalism.n.01
+|   |   |-- stereotype.n.01
+|   |   |-- destination.n.02
+|   |   |-- know-how.n.01
+|   |   |   |-- accounting.n.02
+|   |   |   +-- sagacity.n.01
+|   |   |-- creativity.n.01
+|   |   |   |-- imaginary_place.n.01
+|   |   |   |-- fantasy.n.01
+|   |   |   +-- resource.n.03
+|   |   |-- stimulation.n.02
+|   |   |   |-- negative_stimulus.n.01
+|   |   |   +-- bonus.n.01
+|   |   |-- datum.n.01
+|   |   |   |-- statistic.n.01
+|   |   |   +-- clock_time.n.01
+|   |   |-- symptom.n.01
+|   |   |   |-- chill.n.03
+|   |   |   +-- headache.n.02
+|   |   |-- basic_cognitive_process.n.01
+|   |   |   |-- vogue.n.01
+|   |   |   |-- somesthesia.n.01
+|   |   |   |-- nightmare.n.02
+|   |   |   |-- omission.n.04
+|   |   |   |-- scent.n.02
+|   |   |   +-- critical_appraisal.n.01
+|   |   |-- higher_cognitive_process.n.01
+|   |   |   |-- linguistic_process.n.02
+|   |   |   |-- problem_solving.n.02
+|   |   |   |   |-- calculation.n.02
+|   |   |   |   +-- poll.n.01
+|   |   |   |-- argumentation.n.02
+|   |   |   |-- revelation.n.02
+|   |   |   |-- option.n.02
+|   |   |   |-- projection.n.01
+|   |   |   +-- ideology.n.02
+|   |   |-- political_orientation.n.01
+|   |   |-- custom.n.02
+|   |   |-- counterpart.n.01
+|   |   |-- barrier.n.02
+|   |   |-- menu.n.04
+|   |   |-- evil_spirit.n.01
+|   |   |-- visual_percept.n.01
+|   |   |-- ghost.n.01
+|   |   |-- instinct.n.01
+|   |   |-- somatosense.n.01
+|   |   |-- racism.n.01
+|   |   +-- protocol.n.03
+|   |-- motivation.n.01
+|   |   |-- ethical_motive.n.01
+|   |   +-- incentive.n.01
+|   |-- social_event.n.01
+|   |   |-- playoff.n.01
+|   |   +-- documentary.n.01
+|   |-- group_action.n.01
+|   |   |-- military_action.n.01
+|   |   |-- transaction.n.01
+|   |   |   |-- commercial_enterprise.n.02
+|   |   |   |   |-- tourism.n.01
+|   |   |   |   +-- banking.n.02
+|   |   |   +-- auction.n.02
+|   |   |-- social_control.n.01
+|   |   |   |-- banking.n.01
+|   |   |   |-- corporal_punishment.n.01
+|   |   |   |-- racism.n.02
+|   |   |   |-- tolerance.n.03
+|   |   |   +-- terrorism.n.01
+|   |   |-- due_process.n.01
+|   |   |   |-- proceeding.n.01
+|   |   |   |   |-- lawsuit.n.01
+|   |   |   |   +-- prosecution.n.01
+|   |   |   |-- plea.n.03
+|   |   |   +-- final_judgment.n.01
+|   |   |-- social_activity.n.01
+|   |   |-- nonattendance.n.01
+|   |   |-- procession.n.02
+|   |   |-- attendance.n.01
+|   |   |-- commitment.n.02
+|   |   |-- collaboration.n.01
+|   |   +-- job_action.n.01
+|   |-- episode.n.01
+|   |-- collapse.n.02
+|   |-- periodic_event.n.01
+|   |   |-- tide.n.01
+|   |   +-- pulse.n.02
+|   |-- deformation.n.02
+|   |-- conservation.n.01
+|   |-- change_of_location.n.01
+|   |-- emergence.n.01
+|   |-- scandal.n.02
+|   |-- pop.n.03
+|   |-- pant.n.01
+|   |-- boom.n.01
+|   |-- speech_act.n.01
+|   |   |-- informing.n.02
+|   |   |   |-- gossip.n.02
+|   |   |   |   |-- scandal.n.01
+|   |   |   |   +-- rumor.n.01
+|   |   |   +-- debut.n.02
+|   |   |-- disclosure.n.01
+|   |   |-- disagreement.n.03
+|   |   |-- interrogation.n.03
+|   |   |-- public_speaking.n.01
+|   |   |-- complaint.n.03
+|   |   |-- assent.n.01
+|   |   |-- withdrawal.n.01
+|   |   +-- ban.n.04
+|   |-- inactivity.n.03
+|   |-- propulsion.n.02
+|   |-- implementation.n.02
+|   |-- acquiring.n.01
+|   |-- egress.n.03
+|   |-- hindrance.n.03
+|   |-- accomplishment.n.01
+|   |   |-- attainment.n.01
+|   |   |   |-- coup.n.02
+|   |   |   +-- touchdown.n.01
+|   |   +-- rally.n.02
+|   |-- aggression.n.03
+|   |   |-- riot.n.01
+|   |   +-- rape.n.02
+|   |-- kindness.n.03
+|   |-- change_of_state.n.01
+|   |   |-- termination.n.05
+|   |   |   |-- abortion.n.01
+|   |   |   |-- homicide.n.01
+|   |   |   +-- graduation.n.01
+|   |   |-- correction.n.01
+|   |   |-- restoration.n.02
+|   |   +-- installation.n.01
+|   |-- change_of_integrity.n.01
+|   |   |-- withdrawal.n.02
+|   |   +-- mix.n.03
+|   |-- substitution.n.02
+|   |-- descent.n.03
+|   |-- air_travel.n.01
+|   |-- rotation.n.01
+|   |-- maneuver.n.04
+|   |-- nomination.n.01
+|   |-- diversion.n.01
+|   |   |-- athletic_game.n.01
+|   |   |   |-- field_game.n.01
+|   |   |   |   |-- ball_game.n.01
+|   |   |   |   +-- soccer.n.01
+|   |   |   +-- basketball.n.01
+|   |   +-- outdoor_sport.n.01
+|   |-- wrongdoing.n.02
+|   |   |-- transgression.n.01
+|   |   |   |-- fraud.n.01
+|   |   |   |-- intemperance.n.02
+|   |   |   +-- rape.n.03
+|   |   |-- dishonesty.n.02
+|   |   +-- fraud.n.03
+|   |-- undertaking.n.01
+|   |   |-- adventure.n.01
+|   |   +-- homework.n.01
+|   |-- scientific_research.n.01
+|   |-- washup.n.01
+|   |-- seminar.n.02
+|   |-- learned_profession.n.01
+|   |-- public_service.n.02
+|   |-- offense.n.05
+|   |-- bombing.n.01
+|   |-- conservation.n.02
+|   |-- calculation.n.01
+|   |-- blessing.n.01
+|   |   |-- adoption.n.01
+|   |   +-- carrot.n.04
+|   |-- restraint.n.01
+|   |   |-- custody.n.02
+|   |   +-- constraint.n.03
+|   |-- retention.n.01
+|   |-- dramaturgy.n.01
+|   |-- charity.n.03
+|   |-- landmark.n.02
+|   |-- epidemic.n.01
+|   |-- personnel_casualty.n.01
+|   |-- mishap.n.02
+|   |-- lightning.n.01
+|   |-- putout.n.01
+|   |-- flight_maneuver.n.01
+|   |-- change_of_course.n.01
+|   |-- discount.n.01
+|   |-- butterfly.n.02
+|   |-- immigration.n.01
+|   |-- slice.n.04
+|   |-- cruise.n.01
+|   |-- gaze.n.01
+|   |-- mask.n.02
+|   |-- custom.n.01
+|   |-- harvest.n.03
+|   |-- surveillance.n.01
+|   |-- medication.n.02
+|   |-- auction.n.01
+|   |-- conceptualization.n.01
+|   |-- fabrication.n.03
+|   |-- harassment.n.02
+|   |-- vigil.n.02
+|   |-- limitation.n.05
+|   |-- photography.n.01
+|   |-- diagnosis.n.01
+|   +-- retreat.n.01
+|-- attribute.n.02
+|   |-- trait.n.01
+|   |   |-- distrust.n.02
+|   |   |-- disposition.n.01
+|   |   |   |-- good_nature.n.01
+|   |   |   |-- willingness.n.01
+|   |   |   |-- privacy.n.01
+|   |   |   +-- aggression.n.01
+|   |   |-- accountability.n.01
+|   |   |-- playfulness.n.02
+|   |   +-- citizenship.n.02
+|   |-- inheritance.n.04
+|   |-- hostility.n.02
+|   |-- inaction.n.01
+|   |-- skillfulness.n.01
+|   |-- integrity.n.01
+|   |-- psychological_state.n.01
+|   |   |-- nervousness.n.02
+|   |   |-- trauma.n.02
+|   |   +-- perplexity.n.01
+|   |-- physical_condition.n.01
+|   |   |-- disorder.n.01
+|   |   |-- pregnancy.n.01
+|   |   |-- ill_health.n.01
+|   |   |   |-- infection.n.01
+|   |   |   |-- collapse.n.01
+|   |   |   |-- respiratory_disease.n.01
+|   |   |   |-- malignant_tumor.n.01
+|   |   |   |-- bite.n.01
+|   |   |   |-- disability.n.01
+|   |   |   +-- diabetes.n.01
+|   |   |-- fitness.n.02
+|   |   +-- emotional_arousal.n.01
+|   |-- environmental_condition.n.01
+|   |-- financial_condition.n.01
+|   |   |-- affluence.n.01
+|   |   +-- bankruptcy.n.02
+|   |-- diversity.n.02
+|   |-- susceptibility.n.01
+|   |   |-- capability.n.02
+|   |   +-- liability.n.01
+|   |-- disorderliness.n.01
+|   |-- emptiness.n.01
+|   |-- nightmare.n.01
+|   |-- equilibrium.n.01
+|   |-- actuality.n.01
+|   |-- animation.n.01
+|   |-- bankruptcy.n.01
+|   |-- sexual_relationship.n.01
+|   |-- expectation.n.03
+|   |-- ambivalence.n.01
+|   |-- astonishment.n.01
+|   |-- fearlessness.n.01
+|   |-- sadness.n.01
+|   |   |-- compunction.n.01
+|   |   +-- grief.n.01
+|   |-- emotional_state.n.01
+|   |-- exultation.n.01
+|   |-- sexual_desire.n.01
+|   |-- contentment.n.01
+|   |-- self-esteem.n.01
+|   |-- ego.n.01
+|   |-- sensibility.n.02
+|   |-- consensus.n.01
+|   |-- legal_status.n.01
+|   |   |-- marital_status.n.01
+|   |   +-- citizenship.n.01
+|   |-- equality.n.02
+|   |-- holy_order.n.01
+|   |-- rating.n.03
+|   |-- self-government.n.01
+|   |-- privacy.n.02
+|   |-- sound_property.n.01
+|   |-- visual_property.n.01
+|   |   |-- achromatic_color.n.01
+|   |   +-- chocolate.n.03
+|   |-- physical_property.n.01
+|   |   |-- malleability.n.01
+|   |   |-- momentum.n.02
+|   |   +-- hotness.n.01
+|   |-- spatial_property.n.01
+|   |-- disposition.n.04
+|   |-- temporal_property.n.01
+|   |   |-- earliness.n.01
+|   |   +-- mortality.n.01
+|   |-- bodily_property.n.01
+|   |   |-- stance.n.01
+|   |   +-- gracefulness.n.01
+|   |-- tactile_property.n.01
+|   |-- margin.n.02
+|   |-- momentum.n.01
+|   |-- framework.n.02
+|   |-- infrastructure.n.01
+|   |-- tolerance.n.01
+|   |-- vulnerability.n.02
+|   |-- immorality.n.01
+|   |   |-- unrighteousness.n.01
+|   |   +-- corruption.n.04
+|   |-- humaneness.n.01
+|   |-- complexity.n.01
+|   |-- credibility.n.01
+|   |-- fidelity.n.02
+|   |-- naturalness.n.01
+|   |-- sameness.n.01
+|   |   |-- equality.n.01
+|   |   +-- similarity.n.01
+|   |-- monetary_value.n.01
+|   |-- countenance.n.01
+|   |-- format.n.02
+|   |-- attractiveness.n.02
+|   |-- capability.n.01
+|   |-- adaptability.n.01
+|   |-- compatibility.n.02
+|   |-- streak.n.02
+|   |-- righteousness.n.01
+|   |-- musical_time.n.01
+|   |-- round_shape.n.01
+|   |   |-- rim.n.01
+|   |   +-- bubble.n.01
+|   |-- plane_figure.n.01
+|   |   |-- sector.n.01
+|   |   |-- ellipse.n.01
+|   |   +-- regular_polygon.n.01
+|   |-- toroid.n.01
+|   |-- concave_shape.n.01
+|   |-- margin.n.01
+|   |-- disturbance.n.03
+|   |-- semidarkness.n.01
+|   |-- fatigue.n.01
+|   |-- recession.n.01
+|   |-- dirtiness.n.01
+|   |-- pollution.n.01
+|   |-- wilderness.n.01
+|   |-- wellbeing.n.01
+|   |-- tranquillity.n.02
+|   |-- preference.n.01
+|   |-- withdrawal.n.04
+|   |-- harassment.n.01
+|   |-- aggression.n.02
+|   |-- frustration.n.01
+|   |-- championship.n.01
+|   |-- notoriety.n.01
+|   |-- cage.n.02
+|   |-- debt.n.01
+|   |-- ancestry.n.02
+|   |-- deficit.n.01
+|   |-- wilderness.n.04
+|   |-- compactness.n.02
+|   |-- resource.n.02
+|   |-- distinctness.n.01
+|   |-- stability.n.01
+|   |-- cyclicity.n.01
+|   |-- fitness.n.01
+|   |-- currency.n.02
+|   |-- legality.n.01
+|   |-- disparity.n.01
+|   |-- irony.n.02
+|   |-- charity.n.02
+|   |-- disadvantage.n.01
+|   |   |-- penalty.n.03
+|   |   |-- limitation.n.02
+|   |   +-- drawback.n.01
+|   |-- odds.n.01
+|   |-- sculpture.n.01
+|   +-- simple_closed_curve.n.01
+|-- time_unit.n.01
+|-- definite_quantity.n.01
+|   |-- unit_of_measurement.n.01
+|   |   |-- linear_unit.n.01
+|   |   |-- monetary_unit.n.01
+|   |   |   |-- ban.n.02
+|   |   |   +-- ban.n.03
+|   |   |-- avoirdupois_unit.n.01
+|   |   +-- meter.n.01
+|   +-- digit.n.01
+|-- system_of_measurement.n.01
+|   |-- norm.n.01
+|   +-- coin.n.01
+|-- time_interval.n.01
+|-- indefinite_quantity.n.01
+|   |-- containerful.n.01
+|   |   |-- tablespoon.n.01
+|   |   |-- teaspoon.n.01
+|   |   |-- handful.n.02
+|   |   +-- spoon.n.02
+|   |-- small_indefinite_quantity.n.01
+|   |   |-- handful.n.01
+|   |   +-- tear.n.01
+|   |-- dose.n.02
+|   +-- large_indefinite_quantity.n.01
+|       |-- batch.n.02
+|       +-- chunk.n.02
+|-- deadline.n.01
+|-- social_group.n.01
+|   |-- kin.n.02
+|   |-- political_system.n.01
+|   |-- sector.n.02
+|   |-- tribe.n.01
+|   |-- polity.n.02
+|   |-- nongovernmental_organization.n.01
+|   |-- musical_organization.n.01
+|   |-- educational_institution.n.01
+|   |-- working_group.n.01
+|   |-- commercial_enterprise.n.01
+|   |-- carrier.n.05
+|   |   |-- airline.n.02
+|   |   +-- railway.n.01
+|   |-- processor.n.01
+|   |-- publisher.n.01
+|   |-- military_service.n.01
+|   |-- social_gathering.n.01
+|   |-- rally.n.01
+|   |-- parish.n.01
+|   |-- summit.n.03
+|   |-- seminar.n.01
+|   |-- clique.n.01
+|   |-- charity.n.01
+|   |-- clinic.n.01
+|   |-- ally.n.01
+|   |-- law_enforcement_agency.n.01
+|   |-- detachment.n.04
+|   +-- ministry.n.01
+|-- ecosystem.n.01
+|-- vegetation.n.01
+|-- assortment.n.01
+|-- agglomeration.n.01
+|-- galaxy.n.01
+|-- prosecution.n.02
+|-- treasure.n.04
+|-- civil_law.n.01
+|-- stack.n.01
+|-- ordering.n.01
+|   |-- gene.n.01
+|   |-- streak.n.01
+|   +-- constituent.n.04
+|-- written_communication.n.01
+|   |-- literary_composition.n.01
+|   |   |-- dialogue.n.03
+|   |   |-- fantasy.n.02
+|   |   +-- romance.n.05
+|   |-- document.n.01
+|   |   |-- legal_document.n.01
+|   |   |   |-- negotiable_instrument.n.01
+|   |   |   |-- mandate.n.01
+|   |   |   |-- stock_certificate.n.01
+|   |   |   |-- franchise.n.01
+|   |   |   +-- pickup.n.02
+|   |   |-- commercial_document.n.01
+|   |   +-- ballot.n.01
+|   |-- diary.n.01
+|   |-- personal_letter.n.01
+|   |-- headline.n.01
+|   |-- episode.n.02
+|   |-- script.n.01
+|   |   |-- scenario.n.01
+|   |   +-- dialogue.n.02
+|   |-- cue.n.01
+|   |-- software.n.01
+|   +-- diatonic_scale.n.01
+|-- auditory_communication.n.01
+|   |-- music_genre.n.01
+|   |   |-- popular_music.n.01
+|   |   +-- classical_music.n.01
+|   |-- dance_music.n.02
+|   |-- tune.n.01
+|   |-- dialogue.n.01
+|   |-- negotiation.n.01
+|   |-- clinic.n.02
+|   |-- accent.n.01
+|   +-- sheet_music.n.01
+|-- visual_communication.n.01
+|   |-- artwork.n.01
+|   |-- video.n.01
+|   |-- projection.n.02
+|   +-- facial_expression.n.01
+|-- expressive_style.n.01
+|   |-- writing_style.n.01
+|   |-- rhetoric.n.01
+|   |-- prosody.n.01
+|   +-- metaphor.n.01
+|-- disrespect.n.01
+|-- acknowledgment.n.03
+|   |-- greeting.n.01
+|   +-- apology.n.01
+|-- reminder.n.01
+|-- commitment.n.04
+|   |-- guarantee.n.01
+|   +-- guarantee.n.02
+|-- puzzle.n.01
+|-- database.n.01
+|   |-- catalog.n.02
+|   +-- menu.n.01
+|-- format.n.01
+|-- pleading.n.01
+|   |-- accusation.n.01
+|   |   |-- implication.n.03
+|   |   +-- allegation.n.01
+|   +-- plea.n.02
+|-- falsehood.n.01
+|-- mathematical_statement.n.01
+|-- accounting.n.01
+|-- apology.n.02
+|-- feedback.n.02
+|-- intent.n.02
+|-- recipe.n.01
+|-- prescription.n.01
+|-- regulation.n.01
+|-- protocol.n.01
+|-- ad.n.01
+|-- cartoon.n.01
+|-- sanction.n.01
+|-- symptom.n.02
+|-- hint.n.02
+|-- fingerprint.n.01
+|-- guideline.n.01
+|-- written_record.n.01
+|-- biography.n.01
+|-- positive_identification.n.01
+|-- poster.n.01
+|-- visual_signal.n.01
+|-- icon.n.01
+|-- magnitude_relation.n.01
+|   |-- quotient.n.01
+|   +-- odds.n.02
+|-- social_relation.n.01
+|-- business_relation.n.01
+|-- mathematical_relation.n.01
+|-- reciprocality.n.01
+|-- language_unit.n.01
+|   |-- discourse.n.01
+|   |-- trade_name.n.01
+|   +-- signature.n.01
+|-- coloring_material.n.01
+|   |-- oil_paint.n.01
+|   +-- couch.n.02
+|-- plant_material.n.01
+|   |-- plant_product.n.01
+|   |   |-- plant_fiber.n.01
+|   |   +-- roll_of_tobacco.n.01
+|   |-- pine.n.02
+|   +-- log.n.01
+|-- particulate.n.01
+|-- mineral.n.01
+|-- pad.n.01
+|-- leaf.n.02
+|-- compound.n.02
+|   |-- organic_compound.n.01
+|   |   |-- macromolecule.n.01
+|   |   |   |-- lipid.n.01
+|   |   |   +-- carbohydrate.n.01
+|   |   |-- sterol.n.01
+|   |   +-- gasoline.n.01
+|   |-- acid.n.01
+|   +-- cleansing_agent.n.01
+|-- pesticide.n.01
+|-- garbage.n.01
+|-- slot.n.01
+|-- transferred_property.n.01
+|   |-- outgo.n.01
+|   |   |-- fixed_charge.n.01
+|   |   |-- fare.n.02
+|   |   |-- regular_payment.n.01
+|   |   |   |-- pension.n.01
+|   |   |   +-- annuity_in_advance.n.01
+|   |   |-- recompense.n.01
+|   |   |-- bonus.n.02
+|   |   +-- premium.n.01
+|   +-- subsidy.n.01
+|-- liabilities.n.01
+|   |-- debt.n.02
+|   +-- levy.n.01
+|-- assets.n.01
+|   |-- resource.n.01
+|   |-- equity.n.01
+|   |-- purse.n.02
+|   |-- slice.n.01
+|   |-- security_interest.n.01
+|   |-- precious_metal.n.01
+|   |-- infrastructure.n.02
+|   +-- gamble.n.01
+|-- real_property.n.01
+|-- linkage.n.01
+|-- involvement.n.02
+|-- time_period.n.01
+|   |-- time_of_life.n.01
+|   |-- calendar_day.n.01
+|   |-- work_time.n.01
+|   |-- harvest.n.04
+|   |-- leisure.n.01
+|   +-- presidency.n.01
+|-- bird_genus.n.01
+|-- elite.n.01
+|-- trash.n.02
+|-- gender.n.01
+|-- spectrum.n.01
+|-- accounting.n.04
+|-- allegation.n.02
+|-- premise.n.01
+|-- protocol.n.02
+|-- romance.n.03
+|-- reference_point.n.01
+|-- dot.n.03
+|-- tag.n.01
+|-- arrow.n.01
+|-- grammatical_relation.n.01
+|-- hormone.n.01
+|-- metallic_element.n.01
+|   |-- noble_metal.n.01
+|   +-- sodium.n.01
+|-- fur.n.01
+|-- debris.n.01
+|-- pop.n.02
+|-- bronze.n.01
+|-- vapor.n.01
+|-- altitude.n.01
++-- cardinal_compass_point.n.01

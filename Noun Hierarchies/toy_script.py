@@ -15,7 +15,7 @@ pruning_threashold = 15  # any word with frequency less than this won't be inclu
 print_paths = False      # determines if the path for each word is printed
 print_numbers = True    # determines if various lengths are printed
 print_tree_one = False    # determines if we print out the tree
-print_tree_two = True    # determines if we print out the tree after trimming
+print_tree_two = False    # determines if we print out the tree after trimming
 # ---------------------------------------------------------------------------------------------
 
 # just a quick helpful function
@@ -23,25 +23,22 @@ def get_string_from_synset(synset):
     return str(synset)[8:-2]
 
 # read the words ----------------------------------------------------------------------------------
-os.chdir("C:\\Users\\aaron\\Google Drive\\AJ\\Python")
-
 words = []
 
-with open(".\\Lexical Resources\\Noun Heirarchies\\ogden_nouns.txt", "r") as f:
+# set the working directory
+os.chdir(os.path.abspath(os.path.dirname(__file__)))
+
+# do the actual reading
+with open(".\\Sources\\ogden_nouns.txt", "r") as f:
+    # read the first line
     line = f.readline().strip()
+
     words.append(line)
     while line:
         line = f.readline().rstrip()
+        if line == "":
+            break
         words.append(line)
-# for the ogden picturable nouns
-'''
-with open(".\\Lexical Resources\\Noun Heirarchies\\nouns.txt", "r") as f:
-    line = f.readline().strip()
-    words.append(line)
-    while line:
-        line = f.readline().rstrip()
-        words.append(line)
-'''# for the nouns list we've generated
 
 if print_numbers:
     print("WORDS: " + str(len(words)))
@@ -135,6 +132,7 @@ if print_numbers:
 if print_tree_one:
     for pre, fill, node in RenderTree(root_node, style=AsciiStyle()):
         print(("%s%s" % (pre, node.name)).encode("utf-8"))
+
 # -------------------------------------------------------------------------------------------------
 # calculating a good pruning threashold -----------------------------------------------------------
 '''
@@ -202,4 +200,5 @@ if print_numbers:
 if print_tree_two:
     for pre, fill, node in RenderTree(root_node, style=AsciiStyle()):
         print(("%s%s" % (pre, node.name)).encode("utf-8"))
+
 # -------------------------------------------------------------------------------------------------

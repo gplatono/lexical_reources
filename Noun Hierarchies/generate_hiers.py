@@ -1,6 +1,7 @@
 import io
 import os
-import ast
+from semcor_sense_frequency import SemcorSenseFrequency
+from brown_frequency import BrownFrequency
 from nltk.corpus import wordnet as wn
 from nltk.corpus import brown
 from nltk import FreqDist as FD
@@ -35,28 +36,34 @@ selection of synsets but dramatically decreases the complexity of the tree
 # CONFIG ------------------------------------------------------------------------------------------
 # I/O -------------------------------------------
 # the input file
-file_in = "ogden_nouns_manually_selected.txt"
+file_in = "gathered_nouns.txt"
 
 # the output file
 file_out = None
-use_output = False
+use_output = True
 
 # Filtering Flags -------------------------------
 # should we use only exact matches?
-filter_inexact_matches = False
+filter_inexact_matches = True
+
+# should we filter by synset frequency? (Semcor)
+filter_infrequent_senses = False
 
 # should we filter the inner nodes?
 filter_inner_nodes = True
 
 # should we filter suspected named entities?
-filter_named_entities = False
+filter_named_entities = True
 
 # should we filter parents with only one child?
-filter_single_parents = False
+filter_single_parents = True
 
 # the frequency cutoff to filter the inner nodes by
 trimming_threashold = 15
 # 0 is 0%, 1 is ~20%, 15 is ~35%, etc.
+
+# the frequency cutoff to filter the infrequent senses by
+sense_trimming_threashold = 0.2
 
 # Printing / Debug Flags ------------------------
 print_synsets = False   # determines if the synsets & definitions are printed
@@ -156,16 +163,35 @@ if clarify_synsets: # type 2
             synsets.append(all_syns[i-1])
 
 else: # type 1
+
+    if filter_inexact_matches:
+        inexactRemoved = 0
+
+    if filter_infrequent_senses:
+        # get the sense frequency list
+        infreqSenseRemoved = 0
+        seFreq = SemcorSenseFrequency()
+
     for word in words:
         all_syns = wn.synsets(word, pos=wn.NOUN)
         for syn in all_syns:
 
             # if we're removing inexact matches, check if it maches and don't add a path if not
             if filter_inexact_matches and not synstr(syn).split(".")[0] == word:
+                inexactRemoved += 1
+                continue
+
+            if filter_infrequent_senses and not seFreq.is_frequent(synstr(syn), threashold = sense_trimming_threashold):
+                infreqSenseRemoved += 1
                 continue
 
             synsets.append(syn)
 
+    if print_numbers:
+        if filter_inexact_matches:
+            print("INEXACT REMOVED: " + str(inexactRemoved))
+        if filter_infrequent_senses:
+            print("INFREQ SENSES REMOVED: " + str(infreqSenseRemoved))
 
 
 if print_numbers:
@@ -278,10 +304,8 @@ if filter_named_entities:
 
 # do we want to filter the less frequent inner nodes?
 if filter_inner_nodes:
-    # get a decent frequency list
-    brownWords = brown.words()
-    freq = FD(w.lower() for w in brownWords)
-    freqDub = FD(brownWords[i] + " " + brownWords[i+1] for i in range(0, len(brownWords)-1))
+    # get the brown frequency list
+    brFreq = BrownFrequency()
 
     # get the nodes using a preorder traversal
     preorder_tree_nodes = [node for node in PreOrderIter(root_node)]
@@ -291,13 +315,7 @@ if filter_inner_nodes:
 
     # now we need to eliminate the nodes that don't occur frequently enough
     for node in preorder_tree_nodes:
-        remove = False
-        if ' ' in name(node):
-            if freqDub[name(node)] < 5:
-
-                remove = True
-
-        if remove or freq[name(node)] <= trimming_threashold:
+        if brFreq.is_frequent(name(node), trimming_threashold):
         # remove it from the tree
             parent = node.parent
 
@@ -404,6 +422,7 @@ if os.path.exists(".\\Hierarchies\\" + file_out):
 
 with open(".\\Hierarchies\\" + file_out, "w") as f:
     f.write("Filter Inexact Synsets: " + str(filter_inexact_matches) + "\n")
+    f.write("Filter Infrequent Senses: " + str(filter_infrequent_senses) + "\n")
     f.write("Filter Named Entities: " + str(filter_named_entities) + "\n")
     f.write("Filter Inner Nodes: " + str(filter_inner_nodes) + "\n")
     f.write("Filter Single Parents: " + str(filter_single_parents) + "\n")
