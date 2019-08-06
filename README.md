@@ -13,12 +13,12 @@ speech tag for each word.
 
 dolch_wordlist - the list of 220 English words composed by Edward Dolch in the 
 1930s and 1940s. The list is based on the children stories designed for the readers 
-up to the elementary school. The file contains just the words in the alphabetical 
+up to the elementary school. The file contains just the words in alphabetical 
 order.
 
 ogden_wordlist - the list of 850 Basic English words composed by Charles K. Ogden 
 in the 1930. The list is designed as a basic vocabulary for the people learning 
-English as a second language. The file contains just the words in the alphabetical 
+English as a second language. The file contains just the words in alphabetical 
 order.
 
 NGSL+1.01+by+band.csv, NGSL+1.01+by+band.xlsx - The New General Service List is an 
