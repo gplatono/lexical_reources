@@ -1,7 +1,3 @@
-dribbling to file "simple-common-nouns" (May 30/19)
- 
-NIL
-[6] CL-USER(57): (format t "~S" *simple-common-nouns*)
 (((N ABACUS) ABACUS.N ((NIL)) (COUNT))
  ((N ABANDON) ABANDON.N ((NIL)) (MASS))
  ((N ABATTOIR) ABATTOIR.N ((NIL)) (COUNT))
@@ -18264,9 +18260,6 @@ NIL
  ((N ZOOM) ZOOM.N ((NIL)) (COUNT))
  ((N ZOOPHYTE) ZOOPHYTE.N ((NIL)) (COUNT))
  ((N ZUCCHINI) ZUCCHINI.N ((NIL)) (COUNT)))
-NIL
-[6] CL-USER(58): (dribble)
-
 
 
 
